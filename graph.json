@@ -1,0 +1,3925 @@
+{
+  "nodes": [
+    {
+      "id": "00_Home",
+      "label": "00_Home",
+      "folder": "_vault",
+      "tags": [
+        "analyse",
+        "archive",
+        "output",
+        "structure"
+      ],
+      "color": null,
+      "degree": 4,
+      "anon": false
+    },
+    {
+      "id": "과정발표회 논의",
+      "label": "과정발표회 논의",
+      "folder": "_vault",
+      "tags": [],
+      "color": null,
+      "degree": 1,
+      "anon": false
+    },
+    {
+      "id": "세션유배1기",
+      "label": "세션유배1기",
+      "folder": "_vault",
+      "tags": [
+        "연구방향"
+      ],
+      "color": "#73B5AA",
+      "degree": 32,
+      "anon": false
+    },
+    {
+      "id": "워크숍2기",
+      "label": "워크숍2기",
+      "folder": "_vault",
+      "tags": [
+        "연구방향"
+      ],
+      "color": "#73B5AA",
+      "degree": 41,
+      "anon": false
+    },
+    {
+      "id": "변방연극제2026",
+      "label": "변방연극제2026",
+      "folder": "_vault",
+      "tags": [
+        "프로젝트"
+      ],
+      "color": "#D65C5C",
+      "degree": 25,
+      "anon": false
+    },
+    {
+      "id": "집",
+      "label": "집",
+      "folder": "_vault",
+      "tags": [
+        "프로젝트"
+      ],
+      "color": "#D65C5C",
+      "degree": 31,
+      "anon": false
+    },
+    {
+      "id": "사건",
+      "label": "사건",
+      "folder": "_vault",
+      "tags": [
+        "공간실험",
+        "프로젝트"
+      ],
+      "color": "#D65C5C",
+      "degree": 24,
+      "anon": false
+    },
+    {
+      "id": "기약없는-약속",
+      "label": "기약없는-약속",
+      "folder": "_vault",
+      "tags": [
+        "idea",
+        "식사"
+      ],
+      "color": null,
+      "degree": 8,
+      "anon": false
+    },
+    {
+      "id": "자기애적-일체-욕망-준",
+      "label": "자기애적-일체-욕망-준",
+      "folder": "_vault",
+      "tags": [
+        "dramaturgy",
+        "식사",
+        "정신분석"
+      ],
+      "color": null,
+      "degree": 3,
+      "anon": false
+    },
+    {
+      "id": "기호-감각의-방아쇠",
+      "label": "기호-감각의-방아쇠",
+      "folder": "_vault",
+      "tags": [
+        "idea",
+        "방법론",
+        "식사"
+      ],
+      "color": null,
+      "degree": 11,
+      "anon": false
+    },
+    {
+      "id": "막스피카르트-silencio",
+      "label": "막스피카르트-silencio",
+      "folder": "_vault",
+      "tags": [
+        "reference",
+        "식사",
+        "인용"
+      ],
+      "color": null,
+      "degree": 5,
+      "anon": false
+    },
+    {
+      "id": "사운드-레퍼런스",
+      "label": "사운드-레퍼런스",
+      "folder": "_vault",
+      "tags": [
+        "reference",
+        "사운드",
+        "식사"
+      ],
+      "color": null,
+      "degree": 4,
+      "anon": false
+    },
+    {
+      "id": "언어의-선험성-그러면",
+      "label": "언어의-선험성-그러면",
+      "folder": "_vault",
+      "tags": [
+        "idea",
+        "식사",
+        "언어철학"
+      ],
+      "color": null,
+      "degree": 4,
+      "anon": false
+    },
+    {
+      "id": "감각-맹신의-위험",
+      "label": "감각-맹신의-위험",
+      "folder": "_vault",
+      "tags": [
+        "dramaturgy",
+        "식사"
+      ],
+      "color": null,
+      "degree": 6,
+      "anon": false
+    },
+    {
+      "id": "네-인물의-좌표",
+      "label": "네-인물의-좌표",
+      "folder": "_vault",
+      "tags": [
+        "idea",
+        "식사",
+        "인물"
+      ],
+      "color": null,
+      "degree": 7,
+      "anon": false
+    },
+    {
+      "id": "사운드스케이프-침묵의-회복",
+      "label": "사운드스케이프-침묵의-회복",
+      "folder": "_vault",
+      "tags": [
+        "idea",
+        "사운드",
+        "식사"
+      ],
+      "color": null,
+      "degree": 7,
+      "anon": false
+    },
+    {
+      "id": "화낼-거면-미리-말해",
+      "label": "화낼-거면-미리-말해",
+      "folder": "_vault",
+      "tags": [
+        "idea",
+        "식사",
+        "언어철학"
+      ],
+      "color": null,
+      "degree": 4,
+      "anon": false
+    },
+    {
+      "id": "침묵으로-만들어진-3막",
+      "label": "침묵으로-만들어진-3막",
+      "folder": "_vault",
+      "tags": [
+        "idea",
+        "식사",
+        "형식"
+      ],
+      "color": null,
+      "degree": 9,
+      "anon": false
+    },
+    {
+      "id": "2017-자기회고",
+      "label": "2017-자기회고",
+      "folder": "_vault",
+      "tags": [
+        "식사",
+        "자기회고"
+      ],
+      "color": null,
+      "degree": 7,
+      "anon": false
+    },
+    {
+      "id": "식사",
+      "label": "식사",
+      "folder": "_vault",
+      "tags": [
+        "dramaturgy",
+        "idea",
+        "planning",
+        "reference",
+        "공연구조",
+        "자기회고",
+        "프로젝트"
+      ],
+      "color": "#D65C5C",
+      "degree": 27,
+      "anon": false
+    },
+    {
+      "id": "수행-vs-살아있음",
+      "label": "수행-vs-살아있음",
+      "folder": "_vault",
+      "tags": [
+        "dramaturgy",
+        "식사"
+      ],
+      "color": null,
+      "degree": 7,
+      "anon": false
+    },
+    {
+      "id": "공동창작-방법-2017",
+      "label": "공동창작-방법-2017",
+      "folder": "_vault",
+      "tags": [
+        "planning",
+        "식사"
+      ],
+      "color": null,
+      "degree": 5,
+      "anon": false
+    },
+    {
+      "id": "회고-○○○",
+      "label": "회고-○○○",
+      "folder": "_vault",
+      "tags": [
+        "연출",
+        "점유",
+        "회고"
+      ],
+      "color": null,
+      "degree": 2,
+      "anon": false
+    },
+    {
+      "id": "동료-창작자-모집",
+      "label": "동료-창작자-모집",
+      "folder": "_vault",
+      "tags": [
+        "모집공고",
+        "연출노트",
+        "점유",
+        "프리프로덕션"
+      ],
+      "color": null,
+      "degree": 2,
+      "anon": false
+    },
+    {
+      "id": "호의적-태도를-못-믿겠다",
+      "label": "호의적-태도를-못-믿겠다",
+      "folder": "_vault",
+      "tags": [
+        "공동체",
+        "배타",
+        "연출노트",
+        "점유",
+        "호의"
+      ],
+      "color": null,
+      "degree": 2,
+      "anon": false
+    },
+    {
+      "id": "해파리-연가",
+      "label": "해파리-연가",
+      "folder": "_vault",
+      "tags": [
+        "시퀀스",
+        "연출노트",
+        "우리세대",
+        "점유"
+      ],
+      "color": null,
+      "degree": 2,
+      "anon": false
+    },
+    {
+      "id": "회고-김주미",
+      "label": "회고-김주미",
+      "folder": "_vault",
+      "tags": [
+        "배우",
+        "점유",
+        "회고"
+      ],
+      "color": null,
+      "degree": 2,
+      "anon": false
+    },
+    {
+      "id": "회고-○○○__2",
+      "label": "회고-○○○",
+      "folder": "_vault",
+      "tags": [
+        "배우",
+        "점유",
+        "회고"
+      ],
+      "color": null,
+      "degree": 3,
+      "anon": false
+    },
+    {
+      "id": "점유",
+      "label": "점유",
+      "folder": "_vault",
+      "tags": [
+        "공간실험",
+        "공동체",
+        "공연구조",
+        "프로젝트"
+      ],
+      "color": "#D65C5C",
+      "degree": 34,
+      "anon": false
+    },
+    {
+      "id": "푸쉬",
+      "label": "푸쉬",
+      "folder": "_vault",
+      "tags": [
+        "사적일기",
+        "연출노트",
+        "점유"
+      ],
+      "color": null,
+      "degree": 2,
+      "anon": false
+    },
+    {
+      "id": "아주-솔직한-이야기",
+      "label": "아주-솔직한-이야기",
+      "folder": "_vault",
+      "tags": [
+        "사적일기",
+        "신뢰",
+        "연출노트",
+        "점유"
+      ],
+      "color": null,
+      "degree": 2,
+      "anon": false
+    },
+    {
+      "id": "시체를-넘는-행군",
+      "label": "시체를-넘는-행군",
+      "folder": "_vault",
+      "tags": [
+        "동행",
+        "연출노트",
+        "우리",
+        "점유"
+      ],
+      "color": null,
+      "degree": 2,
+      "anon": false
+    },
+    {
+      "id": "공연을-알리는-말씨",
+      "label": "공연을-알리는-말씨",
+      "folder": "_vault",
+      "tags": [
+        "공동체",
+        "연출노트",
+        "점유",
+        "홍보"
+      ],
+      "color": null,
+      "degree": 2,
+      "anon": false
+    },
+    {
+      "id": "회고-이승민",
+      "label": "회고-이승민",
+      "folder": "_vault",
+      "tags": [
+        "배우",
+        "점유",
+        "회고"
+      ],
+      "color": null,
+      "degree": 2,
+      "anon": false
+    },
+    {
+      "id": "시와-손-관객응답-2023",
+      "label": "시와-손-관객응답-2023",
+      "folder": "_vault",
+      "tags": [
+        "vs",
+        "관객응답",
+        "수신",
+        "의도"
+      ],
+      "color": null,
+      "degree": 4,
+      "anon": false
+    },
+    {
+      "id": "만들고-부수지-못함",
+      "label": "만들고-부수지-못함",
+      "folder": "_vault",
+      "tags": [
+        "갇힘",
+        "구조에",
+        "만들기",
+        "포이에시스"
+      ],
+      "color": null,
+      "degree": 4,
+      "anon": false
+    },
+    {
+      "id": "PLOT_STAGE_공모신청서_씨어터프로젝트 유배",
+      "label": "PLOT_STAGE_공모신청서_씨어터프로젝트 유배",
+      "folder": "_vault",
+      "tags": [],
+      "color": null,
+      "degree": 1,
+      "anon": false
+    },
+    {
+      "id": "시-손-설-3존재",
+      "label": "시-손-설-3존재",
+      "folder": "_vault",
+      "tags": [
+        "3존재",
+        "박자쪼개기",
+        "인물구조"
+      ],
+      "color": null,
+      "degree": 5,
+      "anon": false
+    },
+    {
+      "id": "시와 손 (시와 손)",
+      "label": "시와 손 (시와 손)",
+      "folder": "_vault",
+      "tags": [
+        "dramaturgy",
+        "idea",
+        "reception",
+        "공간실험",
+        "공연구조",
+        "되기",
+        "비인간",
+        "프로젝트"
+      ],
+      "color": "#D65C5C",
+      "degree": 21,
+      "anon": false
+    },
+    {
+      "id": "완전의-역설",
+      "label": "완전의-역설",
+      "folder": "_vault",
+      "tags": [
+        "overfunction",
+        "완전",
+        "자기부정"
+      ],
+      "color": null,
+      "degree": 4,
+      "anon": false
+    },
+    {
+      "id": "수면 (수면)",
+      "label": "수면 (수면)",
+      "folder": "_vault",
+      "tags": [
+        "공연구조",
+        "프로젝트"
+      ],
+      "color": "#D65C5C",
+      "degree": 16,
+      "anon": false
+    },
+    {
+      "id": "유배-방향성-2018",
+      "label": "유배-방향성-2018",
+      "folder": "_vault",
+      "tags": [
+        "reference",
+        "단체명",
+        "사육"
+      ],
+      "color": null,
+      "degree": 3,
+      "anon": false
+    },
+    {
+      "id": "사팀-육팀-이원구조",
+      "label": "사팀-육팀-이원구조",
+      "folder": "_vault",
+      "tags": [
+        "idea",
+        "형식"
+      ],
+      "color": null,
+      "degree": 4,
+      "anon": false
+    },
+    {
+      "id": "두-작품의-차이-2019",
+      "label": "두-작품의-차이-2019",
+      "folder": "_vault",
+      "tags": [
+        "자기진단"
+      ],
+      "color": null,
+      "degree": 4,
+      "anon": false
+    },
+    {
+      "id": "극중극-노트",
+      "label": "극중극-노트",
+      "folder": "_vault",
+      "tags": [
+        "dramaturgy",
+        "방법론"
+      ],
+      "color": null,
+      "degree": 4,
+      "anon": false
+    },
+    {
+      "id": "여섯-인물-좌표",
+      "label": "여섯-인물-좌표",
+      "folder": "_vault",
+      "tags": [
+        "idea",
+        "사육",
+        "인물"
+      ],
+      "color": null,
+      "degree": 7,
+      "anon": false
+    },
+    {
+      "id": "방법론-용어집-2018",
+      "label": "방법론-용어집-2018",
+      "folder": "_vault",
+      "tags": [
+        "idea",
+        "방법론"
+      ],
+      "color": null,
+      "degree": 6,
+      "anon": false
+    },
+    {
+      "id": "사, 육",
+      "label": "사, 육",
+      "folder": "_vault",
+      "tags": [
+        "dramaturgy",
+        "idea",
+        "reference",
+        "공연구조",
+        "자기회고",
+        "프로젝트"
+      ],
+      "color": "#D65C5C",
+      "degree": 34,
+      "anon": false
+    },
+    {
+      "id": "신중심사회-마르두크",
+      "label": "신중심사회-마르두크",
+      "folder": "_vault",
+      "tags": [
+        "idea"
+      ],
+      "color": null,
+      "degree": 7,
+      "anon": false
+    },
+    {
+      "id": "거세와-잉태의-통제",
+      "label": "거세와-잉태의-통제",
+      "folder": "_vault",
+      "tags": [
+        "dramaturgy"
+      ],
+      "color": null,
+      "degree": 5,
+      "anon": false
+    },
+    {
+      "id": "떠나기-전-편지-2019",
+      "label": "떠나기-전-편지-2019",
+      "folder": "_vault",
+      "tags": [
+        "편지"
+      ],
+      "color": null,
+      "degree": 7,
+      "anon": false
+    },
+    {
+      "id": "자유로워져야-하는-시점",
+      "label": "자유로워져야-하는-시점",
+      "folder": "_vault",
+      "tags": [
+        "사육"
+      ],
+      "color": null,
+      "degree": 4,
+      "anon": false
+    },
+    {
+      "id": "첫공-인사-무해와-가닿음",
+      "label": "첫공-인사-무해와-가닿음",
+      "folder": "_vault",
+      "tags": [
+        "작업윤리",
+        "첫공"
+      ],
+      "color": null,
+      "degree": 2,
+      "anon": false
+    },
+    {
+      "id": "스코어-연기-언어-정립",
+      "label": "스코어-연기-언어-정립",
+      "folder": "_vault",
+      "tags": [
+        "대상",
+        "방아쇠",
+        "스코어연기",
+        "육신",
+        "토대"
+      ],
+      "color": null,
+      "degree": 2,
+      "anon": false
+    },
+    {
+      "id": "장별-구조-6장",
+      "label": "장별-구조-6장",
+      "folder": "_vault",
+      "tags": [
+        "작품구조",
+        "장면"
+      ],
+      "color": null,
+      "degree": 2,
+      "anon": false
+    },
+    {
+      "id": "엑서사이즈-부연-2회차",
+      "label": "엑서사이즈-부연-2회차",
+      "folder": "_vault",
+      "tags": [
+        "도취",
+        "박자쪼개기",
+        "손펜싱"
+      ],
+      "color": null,
+      "degree": 2,
+      "anon": false
+    },
+    {
+      "id": "사회-명제-무병묘",
+      "label": "사회-명제-무병묘",
+      "folder": "_vault",
+      "tags": [
+        "기획의도",
+        "무병묘",
+        "사회명제"
+      ],
+      "color": null,
+      "degree": 2,
+      "anon": false
+    },
+    {
+      "id": "엑서사이즈-부연-1회차",
+      "label": "엑서사이즈-부연-1회차",
+      "folder": "_vault",
+      "tags": [
+        "걷기",
+        "박자쪼개기",
+        "엑서사이즈"
+      ],
+      "color": null,
+      "degree": 2,
+      "anon": false
+    },
+    {
+      "id": "무병",
+      "label": "무병",
+      "folder": "_vault",
+      "tags": [
+        "공간실험",
+        "무병",
+        "프로젝트"
+      ],
+      "color": "#D65C5C",
+      "degree": 21,
+      "anon": false
+    },
+    {
+      "id": "들뢰즈 되기",
+      "label": "들뢰즈 되기",
+      "folder": "_vault",
+      "tags": [
+        "concepts",
+        "되기",
+        "들뢰즈"
+      ],
+      "color": null,
+      "degree": 6,
+      "anon": false
+    },
+    {
+      "id": "박자 자발적 이탈 — 참조자료",
+      "label": "박자 자발적 이탈 — 참조자료",
+      "folder": "_vault",
+      "tags": [
+        "concepts",
+        "되기",
+        "들뢰즈",
+        "리토르넬로",
+        "박자이탈",
+        "사용금지_박자쪼개기출처",
+        "트랜스"
+      ],
+      "color": null,
+      "degree": 1,
+      "anon": false
+    },
+    {
+      "id": "person_01",
+      "label": "○○○",
+      "folder": "",
+      "tags": [],
+      "color": "#555",
+      "degree": 3,
+      "anon": true
+    },
+    {
+      "id": "person_02",
+      "label": "○○○",
+      "folder": "",
+      "tags": [],
+      "color": "#555",
+      "degree": 0,
+      "anon": true
+    },
+    {
+      "id": "person_03",
+      "label": "○○○",
+      "folder": "",
+      "tags": [],
+      "color": "#555",
+      "degree": 4,
+      "anon": true
+    },
+    {
+      "id": "person_04",
+      "label": "○○○",
+      "folder": "",
+      "tags": [],
+      "color": "#555",
+      "degree": 4,
+      "anon": true
+    },
+    {
+      "id": "person_05",
+      "label": "○○○",
+      "folder": "",
+      "tags": [],
+      "color": "#555",
+      "degree": 7,
+      "anon": true
+    },
+    {
+      "id": "person_06",
+      "label": "○○○",
+      "folder": "",
+      "tags": [],
+      "color": "#555",
+      "degree": 7,
+      "anon": true
+    },
+    {
+      "id": "person_07",
+      "label": "○○○",
+      "folder": "",
+      "tags": [],
+      "color": "#555",
+      "degree": 2,
+      "anon": true
+    },
+    {
+      "id": "person_08",
+      "label": "○○○",
+      "folder": "",
+      "tags": [],
+      "color": "#555",
+      "degree": 8,
+      "anon": true
+    },
+    {
+      "id": "person_09",
+      "label": "○○○",
+      "folder": "",
+      "tags": [],
+      "color": "#555",
+      "degree": 10,
+      "anon": true
+    },
+    {
+      "id": "person_10",
+      "label": "○○○",
+      "folder": "",
+      "tags": [],
+      "color": "#555",
+      "degree": 4,
+      "anon": true
+    },
+    {
+      "id": "person_11",
+      "label": "○○○",
+      "folder": "",
+      "tags": [],
+      "color": "#555",
+      "degree": 26,
+      "anon": true
+    },
+    {
+      "id": "person_12",
+      "label": "○○○",
+      "folder": "",
+      "tags": [],
+      "color": "#555",
+      "degree": 0,
+      "anon": true
+    },
+    {
+      "id": "person_13",
+      "label": "○○○",
+      "folder": "",
+      "tags": [],
+      "color": "#555",
+      "degree": 7,
+      "anon": true
+    },
+    {
+      "id": "person_14",
+      "label": "○○○",
+      "folder": "",
+      "tags": [],
+      "color": "#555",
+      "degree": 3,
+      "anon": true
+    },
+    {
+      "id": "person_15",
+      "label": "○○○",
+      "folder": "",
+      "tags": [],
+      "color": "#555",
+      "degree": 2,
+      "anon": true
+    },
+    {
+      "id": "person_16",
+      "label": "○○○",
+      "folder": "",
+      "tags": [],
+      "color": "#555",
+      "degree": 4,
+      "anon": true
+    },
+    {
+      "id": "person_17",
+      "label": "○○○",
+      "folder": "",
+      "tags": [],
+      "color": "#555",
+      "degree": 2,
+      "anon": true
+    },
+    {
+      "id": "person_18",
+      "label": "○○○",
+      "folder": "",
+      "tags": [],
+      "color": "#555",
+      "degree": 8,
+      "anon": true
+    },
+    {
+      "id": "주체-층위",
+      "label": "주체-층위",
+      "folder": "_vault",
+      "tags": [
+        "공연구조",
+        "분석축"
+      ],
+      "color": null,
+      "degree": 10,
+      "anon": false
+    },
+    {
+      "id": "워크숍1기_2기_비교분석",
+      "label": "워크숍1기_2기_비교분석",
+      "folder": "_vault",
+      "tags": [
+        "비교분석",
+        "연구방향"
+      ],
+      "color": "#73B5AA",
+      "degree": 8,
+      "anon": false
+    },
+    {
+      "id": "신체-경향성",
+      "label": "신체-경향성",
+      "folder": "_vault",
+      "tags": [
+        "분석축",
+        "연구방향"
+      ],
+      "color": "#73B5AA",
+      "degree": 24,
+      "anon": false
+    },
+    {
+      "id": "스코어-설계",
+      "label": "스코어-설계",
+      "folder": "_vault",
+      "tags": [
+        "연구방향"
+      ],
+      "color": "#73B5AA",
+      "degree": 20,
+      "anon": false
+    },
+    {
+      "id": "관객-체험-로그",
+      "label": "관객-체험-로그",
+      "folder": "_vault",
+      "tags": [
+        "분석축"
+      ],
+      "color": null,
+      "degree": 13,
+      "anon": false
+    },
+    {
+      "id": "4 층위",
+      "label": "4 층위",
+      "folder": "_vault",
+      "tags": [
+        "분석축"
+      ],
+      "color": null,
+      "degree": 17,
+      "anon": false
+    },
+    {
+      "id": "AI-사전검증",
+      "label": "AI-사전검증",
+      "folder": "_vault",
+      "tags": [
+        "도구"
+      ],
+      "color": null,
+      "degree": 14,
+      "anon": false
+    },
+    {
+      "id": "중심축",
+      "label": "중심축",
+      "folder": "_vault",
+      "tags": [
+        "분석축",
+        "연구방향"
+      ],
+      "color": "#73B5AA",
+      "degree": 24,
+      "anon": false
+    },
+    {
+      "id": "9단계-트리거",
+      "label": "9단계-트리거",
+      "folder": "_vault",
+      "tags": [
+        "공연구조"
+      ],
+      "color": null,
+      "degree": 13,
+      "anon": false
+    },
+    {
+      "id": "7축",
+      "label": "7축",
+      "folder": "_vault",
+      "tags": [
+        "분석축",
+        "신체방법론"
+      ],
+      "color": null,
+      "degree": 23,
+      "anon": false
+    },
+    {
+      "id": "박자쪼개기",
+      "label": "박자쪼개기",
+      "folder": "_vault",
+      "tags": [
+        "신체방법론",
+        "연구방향"
+      ],
+      "color": "#73B5AA",
+      "degree": 40,
+      "anon": false
+    },
+    {
+      "id": "되기-리토르넬로",
+      "label": "되기-리토르넬로",
+      "folder": "_vault",
+      "tags": [
+        "참조어휘"
+      ],
+      "color": null,
+      "degree": 17,
+      "anon": false
+    },
+    {
+      "id": "구조-통과",
+      "label": "구조-통과",
+      "folder": "_vault",
+      "tags": [
+        "연구방향"
+      ],
+      "color": "#73B5AA",
+      "degree": 11,
+      "anon": false
+    },
+    {
+      "id": "구조-설계",
+      "label": "구조-설계",
+      "folder": "_vault",
+      "tags": [
+        "연구방향"
+      ],
+      "color": "#73B5AA",
+      "degree": 9,
+      "anon": false
+    },
+    {
+      "id": "되기-실패",
+      "label": "되기-실패",
+      "folder": "_vault",
+      "tags": [
+        "신체방법론",
+        "윤리"
+      ],
+      "color": null,
+      "degree": 12,
+      "anon": false
+    },
+    {
+      "id": "4부작",
+      "label": "4부작",
+      "folder": "_vault",
+      "tags": [
+        "연작구조"
+      ],
+      "color": null,
+      "degree": 26,
+      "anon": false
+    },
+    {
+      "id": "되기와-응답의-윤리",
+      "label": "되기와-응답의-윤리",
+      "folder": "_vault",
+      "tags": [
+        "운영원리"
+      ],
+      "color": null,
+      "degree": 9,
+      "anon": false
+    },
+    {
+      "id": "사물-되기",
+      "label": "사물-되기",
+      "folder": "_vault",
+      "tags": [
+        "신체방법론"
+      ],
+      "color": null,
+      "degree": 9,
+      "anon": false
+    },
+    {
+      "id": "도취-되어지는몸",
+      "label": "도취-되어지는몸",
+      "folder": "_vault",
+      "tags": [
+        "신체방법론"
+      ],
+      "color": null,
+      "degree": 19,
+      "anon": false
+    },
+    {
+      "id": "field-관계장",
+      "label": "field-관계장",
+      "folder": "_vault",
+      "tags": [
+        "작업환경"
+      ],
+      "color": null,
+      "degree": 10,
+      "anon": false
+    },
+    {
+      "id": "변방연극제_작업구상소개서",
+      "label": "변방연극제_작업구상소개서",
+      "folder": "_vault",
+      "tags": [],
+      "color": null,
+      "degree": 12,
+      "anon": false
+    },
+    {
+      "id": "2026-05-12_포트폴리오_사건_AI활용",
+      "label": "2026-05-12_포트폴리오_사건_AI활용",
+      "folder": "_vault",
+      "tags": [],
+      "color": null,
+      "degree": 1,
+      "anon": false
+    },
+    {
+      "id": "변방연극제_참가신청서",
+      "label": "변방연극제_참가신청서",
+      "folder": "_vault",
+      "tags": [],
+      "color": null,
+      "degree": 6,
+      "anon": false
+    },
+    {
+      "id": "변방연극제_창작자소개서",
+      "label": "변방연극제_창작자소개서",
+      "folder": "_vault",
+      "tags": [],
+      "color": null,
+      "degree": 13,
+      "anon": false
+    },
+    {
+      "id": "2026-05-12_아트코리아랩_AI프로젝트_지원서",
+      "label": "2026-05-12_아트코리아랩_AI프로젝트_지원서",
+      "folder": "_vault",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "Outputs_MOC",
+      "label": "Outputs_MOC",
+      "folder": "_vault",
+      "tags": [],
+      "color": null,
+      "degree": 4,
+      "anon": false
+    },
+    {
+      "id": "Projects_MOC",
+      "label": "Projects_MOC",
+      "folder": "_vault",
+      "tags": [],
+      "color": null,
+      "degree": 13,
+      "anon": false
+    },
+    {
+      "id": "People_MOC",
+      "label": "People_MOC",
+      "folder": "_vault",
+      "tags": [],
+      "color": null,
+      "degree": 15,
+      "anon": false
+    },
+    {
+      "id": "Concepts_MOC",
+      "label": "Concepts_MOC",
+      "folder": "_vault",
+      "tags": [],
+      "color": null,
+      "degree": 20,
+      "anon": false
+    },
+    {
+      "id": "2026-05-15_무병_들뢰즈_되기_정합본",
+      "label": "2026-05-15_무병_들뢰즈_되기_정합본",
+      "folder": "Users",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "INDEX (2023 시와손)",
+      "label": "INDEX (2023 시와손)",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 4,
+      "anon": false
+    },
+    {
+      "id": "대관 지원__PLOT_STAGE_공모신청서_씨어터프로젝트 유배",
+      "label": "대관 지원__PLOT_STAGE_공모신청서_씨어터프로젝트 유배",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "대관 지원__2023 상반기 공연장 대관_씨어터프로젝트 유배",
+      "label": "대관 지원__2023 상반기 공연장 대관_씨어터프로젝트 유배",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "대관 지원__삼일로창고극장_공연장_대관신청서(씨어터프로젝트 유배)",
+      "label": "대관 지원__삼일로창고극장_공연장_대관신청서(씨어터프로젝트 유배)",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "대관 지원__천장산우화극장_씨어터프로젝트 유배_시와손",
+      "label": "대관 지원__천장산우화극장_씨어터프로젝트 유배_시와손",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "시와 손 221215",
+      "label": "시와 손 221215",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 1,
+      "anon": false
+    },
+    {
+      "id": "시와 손 (pdf)",
+      "label": "시와 손 (pdf)",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2023 시와 손 관객설문.sfrm - 사이냅 폼",
+      "label": "2023 시와 손 관객설문.sfrm - 사이냅 폼",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 2,
+      "anon": false
+    },
+    {
+      "id": "수면 (2022 <수면>)",
+      "label": "수면 (2022 <수면>)",
+      "folder": "before 2026",
+      "tags": [
+        "아카이브"
+      ],
+      "color": null,
+      "degree": 6,
+      "anon": false
+    },
+    {
+      "id": "INDEX (2022 <수면>)",
+      "label": "INDEX (2022 <수면>)",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 7,
+      "anon": false
+    },
+    {
+      "id": "2022-3 아르코 대관료지원사업__대관료 납부 증빙서류(전자세금계산서)_시어터프로젝트 유배",
+      "label": "2022-3 아르코 대관료지원사업__대관료 납부 증빙서류(전자세금계산서)_시어터프로젝트 유배",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "예술청 대관_신청서 및 서약서(프로젝트룸)",
+      "label": "예술청 대관_신청서 및 서약서(프로젝트룸)",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "두산기획공모__공동기획_공모신청서_2023_씨어터프로젝트 유배",
+      "label": "두산기획공모__공동기획_공모신청서_2023_씨어터프로젝트 유배",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "창작산실 지원__2022년_창작실험활동지원(연극분야)_활동증빙자료_씨어터프로젝트 유배",
+      "label": "창작산실 지원__2022년_창작실험활동지원(연극분야)_활동증빙자료_씨어터프로젝트 유배",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "씨어터프로젝트 유배(대표자 - ○○○)_지원신청서",
+      "label": "씨어터프로젝트 유배(대표자 - ○○○)_지원신청서",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2022-3 아르코 대관료지원사업__대관계약 증빙서류_시어터프로젝트 유배",
+      "label": "2022-3 아르코 대관료지원사업__대관계약 증빙서류_시어터프로젝트 유배",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2023 예술활동지원__2023년 예술창작활동지원_지원신청서_○○○",
+      "label": "2023 예술활동지원__2023년 예술창작활동지원_지원신청서_○○○",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "창작산실 지원__2022 창작실험활동지원(연극분야)_지원신청서_씨어터프로젝트 유배 ",
+      "label": "창작산실 지원__2022 창작실험활동지원(연극분야)_지원신청서_씨어터프로젝트 유배 ",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "연희예술극장 대관계약서_○○○(프로젝트 유배)_221121 2",
+      "label": "연희예술극장 대관계약서_○○○(프로젝트 유배)_221121 2",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2022-3 아르코 대관료지원사업__지원신청서_시어터프로젝트 유배",
+      "label": "2022-3 아르코 대관료지원사업__지원신청서_시어터프로젝트 유배",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "공동기획_공모신청서_2023_씨어터프로젝트 유배",
+      "label": "공동기획_공모신청서_2023_씨어터프로젝트 유배",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "청년예술청 수시대관신청서(○○○)",
+      "label": "청년예술청 수시대관신청서(○○○)",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2022 대한민국 신진연출가전 <브릿지> ○○○__(○○○) 2022 제9회 대한민국신진연출가전 참가신청서 및 작품계획서",
+      "label": "2022 대한민국 신진연출가전 <브릿지> ○○○__(○○○) 2022 제9회 대한민국신진연출가전 참가신청서 및 작품계획서",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2022 첫걸음 페스티벌 지원 - 씨어터프로젝트 유배 (○○○)",
+      "label": "2022 첫걸음 페스티벌 지원 - 씨어터프로젝트 유배 (○○○)",
+      "folder": "before 2026",
+      "tags": [
+        "5R",
+        "Lp",
+        "l",
+        "ÜÅ"
+      ],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2022-3 아르코 대관료지원사업__대관료 납부 증빙서류_시어터프로젝트 유배",
+      "label": "2022-3 아르코 대관료지원사업__대관료 납부 증빙서류_시어터프로젝트 유배",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "○○○ 신원증빙서류__이력서",
+      "label": "○○○ 신원증빙서류__이력서",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2022 대한민국 신진연출가전 <브릿지> ○○○__2022 대한민국 신진연출가전 <브릿지> ○○○ 경력",
+      "label": "2022 대한민국 신진연출가전 <브릿지> ○○○__2022 대한민국 신진연출가전 <브릿지> ○○○ 경력",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "62453a1f97f20",
+      "label": "62453a1f97f20",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "62453a6c27d5e",
+      "label": "62453a6c27d5e",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "프리프로덕션__<수면> 연기술",
+      "label": "프리프로덕션__<수면> 연기술",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2022 대한민국 신진연출가전 <브릿지> ○○○__신진연출가전 <브릿지> ○○○ - 연출안",
+      "label": "2022 대한민국 신진연출가전 <브릿지> ○○○__신진연출가전 <브릿지> ○○○ - 연출안",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2022 대한민국 신진연출가전 <브릿지> ○○○__신진연출가전 <브릿지> ○○○ - 연출안(드래그함)",
+      "label": "2022 대한민국 신진연출가전 <브릿지> ○○○__신진연출가전 <브릿지> ○○○ - 연출안(드래그함)",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "수면__<수면> 2:3",
+      "label": "수면__<수면> 2:3",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2022 대한민국 신진연출가전 <브릿지> ○○○__<수면>_작.○○○_씨어터프로젝트 유배",
+      "label": "2022 대한민국 신진연출가전 <브릿지> ○○○__<수면>_작.○○○_씨어터프로젝트 유배",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "프리프로덕션__<수면> 2차 편집 + 번역 포함",
+      "label": "프리프로덕션__<수면> 2차 편집 + 번역 포함",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "두산기획공모__<수면>_대본",
+      "label": "두산기획공모__<수면>_대본",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "수면__<수면> ing fix",
+      "label": "수면__<수면> ing fix",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "수면__수면",
+      "label": "수면__수면",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "수면__<수면> ing",
+      "label": "수면__<수면> ing",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "프리프로덕션__<수면> 1차 편집",
+      "label": "프리프로덕션__<수면> 1차 편집",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "수면 기획의도, 시놉시스",
+      "label": "수면 기획의도, 시놉시스",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "프리프로덕션__<수면> 번역 포함",
+      "label": "프리프로덕션__<수면> 번역 포함",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "공연개요서_○○○(씨어터프로젝트 유배)",
+      "label": "공연개요서_○○○(씨어터프로젝트 유배)",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "9월7일 연출부 줌 회의",
+      "label": "9월7일 연출부 줌 회의",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "프리프로덕션__4회차 일지",
+      "label": "프리프로덕션__4회차 일지",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "프리프로덕션__2회차 일지",
+      "label": "프리프로덕션__2회차 일지",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "프리프로덕션",
+      "label": "프리프로덕션",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "프리프로덕션__26-27회차 연습을 반추하며",
+      "label": "프리프로덕션__26-27회차 연습을 반추하며",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "0329 연출공유",
+      "label": "0329 연출공유",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "씨어터프로젝트 유배 회의-2",
+      "label": "씨어터프로젝트 유배 회의-2",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "프리프로덕션__1회차 일지",
+      "label": "프리프로덕션__1회차 일지",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "프리프로덕션__새 프로덕션을 위한 <식사-헤페이상> 일지 정리",
+      "label": "프리프로덕션__새 프로덕션을 위한 <식사-헤페이상> 일지 정리",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "형식적 실험",
+      "label": "형식적 실험",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 3,
+      "anon": false
+    },
+    {
+      "id": "4부작 맥락",
+      "label": "4부작 맥락",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 3,
+      "anon": false
+    },
+    {
+      "id": "연기·연출 방법",
+      "label": "연기·연출 방법",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 3,
+      "anon": false
+    },
+    {
+      "id": "핵심 모티프",
+      "label": "핵심 모티프",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 3,
+      "anon": false
+    }
+  ],
+  "edges": [
+    {
+      "source": "00_Home",
+      "target": "Projects_MOC"
+    },
+    {
+      "source": "00_Home",
+      "target": "People_MOC"
+    },
+    {
+      "source": "00_Home",
+      "target": "Concepts_MOC"
+    },
+    {
+      "source": "00_Home",
+      "target": "Outputs_MOC"
+    },
+    {
+      "source": "세션유배1기",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "세션유배1기",
+      "target": "되기-리토르넬로"
+    },
+    {
+      "source": "세션유배1기",
+      "target": "중심축"
+    },
+    {
+      "source": "세션유배1기",
+      "target": "person_11"
+    },
+    {
+      "source": "세션유배1기",
+      "target": "person_09"
+    },
+    {
+      "source": "세션유배1기",
+      "target": "person_03"
+    },
+    {
+      "source": "세션유배1기",
+      "target": "person_04"
+    },
+    {
+      "source": "세션유배1기",
+      "target": "person_10"
+    },
+    {
+      "source": "세션유배1기",
+      "target": "person_08"
+    },
+    {
+      "source": "세션유배1기",
+      "target": "person_16"
+    },
+    {
+      "source": "세션유배1기",
+      "target": "되기와-응답의-윤리"
+    },
+    {
+      "source": "세션유배1기",
+      "target": "7축"
+    },
+    {
+      "source": "세션유배1기",
+      "target": "4 층위"
+    },
+    {
+      "source": "세션유배1기",
+      "target": "신체-경향성"
+    },
+    {
+      "source": "워크숍2기",
+      "target": "워크숍1기_2기_비교분석"
+    },
+    {
+      "source": "워크숍2기",
+      "target": "person_18"
+    },
+    {
+      "source": "워크숍2기",
+      "target": "person_06"
+    },
+    {
+      "source": "워크숍2기",
+      "target": "person_05"
+    },
+    {
+      "source": "워크숍2기",
+      "target": "person_13"
+    },
+    {
+      "source": "워크숍2기",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "워크숍2기",
+      "target": "7축"
+    },
+    {
+      "source": "워크숍2기",
+      "target": "도취-되어지는몸"
+    },
+    {
+      "source": "워크숍2기",
+      "target": "구조-통과"
+    },
+    {
+      "source": "워크숍2기",
+      "target": "구조-설계"
+    },
+    {
+      "source": "워크숍2기",
+      "target": "스코어-설계"
+    },
+    {
+      "source": "워크숍2기",
+      "target": "4 층위"
+    },
+    {
+      "source": "워크숍2기",
+      "target": "사물-되기"
+    },
+    {
+      "source": "워크숍2기",
+      "target": "신체-경향성"
+    },
+    {
+      "source": "워크숍2기",
+      "target": "person_11"
+    },
+    {
+      "source": "워크숍2기",
+      "target": "과정발표회 논의"
+    },
+    {
+      "source": "변방연극제2026",
+      "target": "변방연극제_창작자소개서"
+    },
+    {
+      "source": "변방연극제2026",
+      "target": "변방연극제_작업구상소개서"
+    },
+    {
+      "source": "변방연극제2026",
+      "target": "변방연극제_참가신청서"
+    },
+    {
+      "source": "변방연극제2026",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "변방연극제2026",
+      "target": "7축"
+    },
+    {
+      "source": "변방연극제2026",
+      "target": "4부작"
+    },
+    {
+      "source": "변방연극제2026",
+      "target": "field-관계장"
+    },
+    {
+      "source": "변방연극제2026",
+      "target": "되기-리토르넬로"
+    },
+    {
+      "source": "변방연극제2026",
+      "target": "도취-되어지는몸"
+    },
+    {
+      "source": "변방연극제2026",
+      "target": "person_11"
+    },
+    {
+      "source": "집",
+      "target": "4부작"
+    },
+    {
+      "source": "집",
+      "target": "AI-사전검증"
+    },
+    {
+      "source": "집",
+      "target": "7축"
+    },
+    {
+      "source": "집",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "집",
+      "target": "4 층위"
+    },
+    {
+      "source": "집",
+      "target": "신체-경향성"
+    },
+    {
+      "source": "집",
+      "target": "되기-실패"
+    },
+    {
+      "source": "집",
+      "target": "도취-되어지는몸"
+    },
+    {
+      "source": "집",
+      "target": "field-관계장"
+    },
+    {
+      "source": "집",
+      "target": "9단계-트리거"
+    },
+    {
+      "source": "집",
+      "target": "주체-층위"
+    },
+    {
+      "source": "집",
+      "target": "관객-체험-로그"
+    },
+    {
+      "source": "집",
+      "target": "person_11"
+    },
+    {
+      "source": "집",
+      "target": "식사"
+    },
+    {
+      "source": "집",
+      "target": "사, 육"
+    },
+    {
+      "source": "집",
+      "target": "수면 (수면)"
+    },
+    {
+      "source": "집",
+      "target": "사건"
+    },
+    {
+      "source": "집",
+      "target": "변방연극제2026"
+    },
+    {
+      "source": "집",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "집",
+      "target": "세션유배1기"
+    },
+    {
+      "source": "사건",
+      "target": "4부작"
+    },
+    {
+      "source": "사건",
+      "target": "person_09"
+    },
+    {
+      "source": "사건",
+      "target": "person_11"
+    },
+    {
+      "source": "사건",
+      "target": "9단계-트리거"
+    },
+    {
+      "source": "사건",
+      "target": "AI-사전검증"
+    },
+    {
+      "source": "사건",
+      "target": "관객-체험-로그"
+    },
+    {
+      "source": "사건",
+      "target": "되기-리토르넬로"
+    },
+    {
+      "source": "사건",
+      "target": "도취-되어지는몸"
+    },
+    {
+      "source": "기약없는-약속",
+      "target": "침묵으로-만들어진-3막"
+    },
+    {
+      "source": "기약없는-약속",
+      "target": "네-인물의-좌표"
+    },
+    {
+      "source": "자기애적-일체-욕망-준",
+      "target": "기약없는-약속"
+    },
+    {
+      "source": "자기애적-일체-욕망-준",
+      "target": "네-인물의-좌표"
+    },
+    {
+      "source": "기호-감각의-방아쇠",
+      "target": "수행-vs-살아있음"
+    },
+    {
+      "source": "기호-감각의-방아쇠",
+      "target": "감각-맹신의-위험"
+    },
+    {
+      "source": "기호-감각의-방아쇠",
+      "target": "2017-자기회고"
+    },
+    {
+      "source": "막스피카르트-silencio",
+      "target": "공동창작-방법-2017"
+    },
+    {
+      "source": "막스피카르트-silencio",
+      "target": "침묵으로-만들어진-3막"
+    },
+    {
+      "source": "막스피카르트-silencio",
+      "target": "사운드스케이프-침묵의-회복"
+    },
+    {
+      "source": "사운드-레퍼런스",
+      "target": "사운드스케이프-침묵의-회복"
+    },
+    {
+      "source": "사운드-레퍼런스",
+      "target": "침묵으로-만들어진-3막"
+    },
+    {
+      "source": "언어의-선험성-그러면",
+      "target": "화낼-거면-미리-말해"
+    },
+    {
+      "source": "언어의-선험성-그러면",
+      "target": "기약없는-약속"
+    },
+    {
+      "source": "감각-맹신의-위험",
+      "target": "기호-감각의-방아쇠"
+    },
+    {
+      "source": "감각-맹신의-위험",
+      "target": "수행-vs-살아있음"
+    },
+    {
+      "source": "네-인물의-좌표",
+      "target": "기약없는-약속"
+    },
+    {
+      "source": "네-인물의-좌표",
+      "target": "수행-vs-살아있음"
+    },
+    {
+      "source": "사운드스케이프-침묵의-회복",
+      "target": "사운드-레퍼런스"
+    },
+    {
+      "source": "사운드스케이프-침묵의-회복",
+      "target": "침묵으로-만들어진-3막"
+    },
+    {
+      "source": "화낼-거면-미리-말해",
+      "target": "언어의-선험성-그러면"
+    },
+    {
+      "source": "화낼-거면-미리-말해",
+      "target": "기호-감각의-방아쇠"
+    },
+    {
+      "source": "침묵으로-만들어진-3막",
+      "target": "기약없는-약속"
+    },
+    {
+      "source": "침묵으로-만들어진-3막",
+      "target": "사운드스케이프-침묵의-회복"
+    },
+    {
+      "source": "침묵으로-만들어진-3막",
+      "target": "기호-감각의-방아쇠"
+    },
+    {
+      "source": "침묵으로-만들어진-3막",
+      "target": "막스피카르트-silencio"
+    },
+    {
+      "source": "2017-자기회고",
+      "target": "공동창작-방법-2017"
+    },
+    {
+      "source": "2017-자기회고",
+      "target": "기호-감각의-방아쇠"
+    },
+    {
+      "source": "2017-자기회고",
+      "target": "감각-맹신의-위험"
+    },
+    {
+      "source": "식사",
+      "target": "4부작"
+    },
+    {
+      "source": "식사",
+      "target": "person_11"
+    },
+    {
+      "source": "식사",
+      "target": "person_01"
+    },
+    {
+      "source": "식사",
+      "target": "person_14"
+    },
+    {
+      "source": "식사",
+      "target": "기약없는-약속"
+    },
+    {
+      "source": "식사",
+      "target": "침묵으로-만들어진-3막"
+    },
+    {
+      "source": "식사",
+      "target": "언어의-선험성-그러면"
+    },
+    {
+      "source": "식사",
+      "target": "화낼-거면-미리-말해"
+    },
+    {
+      "source": "식사",
+      "target": "사운드스케이프-침묵의-회복"
+    },
+    {
+      "source": "식사",
+      "target": "기호-감각의-방아쇠"
+    },
+    {
+      "source": "식사",
+      "target": "네-인물의-좌표"
+    },
+    {
+      "source": "식사",
+      "target": "수행-vs-살아있음"
+    },
+    {
+      "source": "식사",
+      "target": "감각-맹신의-위험"
+    },
+    {
+      "source": "식사",
+      "target": "자기애적-일체-욕망-준"
+    },
+    {
+      "source": "식사",
+      "target": "2017-자기회고"
+    },
+    {
+      "source": "식사",
+      "target": "공동창작-방법-2017"
+    },
+    {
+      "source": "식사",
+      "target": "사운드-레퍼런스"
+    },
+    {
+      "source": "식사",
+      "target": "막스피카르트-silencio"
+    },
+    {
+      "source": "식사",
+      "target": "INDEX (2023 시와손)"
+    },
+    {
+      "source": "식사",
+      "target": "사, 육"
+    },
+    {
+      "source": "식사",
+      "target": "수면 (수면)"
+    },
+    {
+      "source": "식사",
+      "target": "집"
+    },
+    {
+      "source": "수행-vs-살아있음",
+      "target": "네-인물의-좌표"
+    },
+    {
+      "source": "수행-vs-살아있음",
+      "target": "기호-감각의-방아쇠"
+    },
+    {
+      "source": "수행-vs-살아있음",
+      "target": "감각-맹신의-위험"
+    },
+    {
+      "source": "공동창작-방법-2017",
+      "target": "기약없는-약속"
+    },
+    {
+      "source": "공동창작-방법-2017",
+      "target": "사운드스케이프-침묵의-회복"
+    },
+    {
+      "source": "회고-○○○",
+      "target": "점유"
+    },
+    {
+      "source": "동료-창작자-모집",
+      "target": "점유"
+    },
+    {
+      "source": "호의적-태도를-못-믿겠다",
+      "target": "점유"
+    },
+    {
+      "source": "해파리-연가",
+      "target": "점유"
+    },
+    {
+      "source": "회고-김주미",
+      "target": "점유"
+    },
+    {
+      "source": "회고-○○○__2",
+      "target": "점유"
+    },
+    {
+      "source": "회고-○○○__2",
+      "target": "person_08"
+    },
+    {
+      "source": "점유",
+      "target": "4부작"
+    },
+    {
+      "source": "점유",
+      "target": "person_11"
+    },
+    {
+      "source": "점유",
+      "target": "person_08"
+    },
+    {
+      "source": "점유",
+      "target": "9단계-트리거"
+    },
+    {
+      "source": "점유",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "점유",
+      "target": "회고-○○○__2"
+    },
+    {
+      "source": "점유",
+      "target": "회고-김주미"
+    },
+    {
+      "source": "점유",
+      "target": "회고-이승민"
+    },
+    {
+      "source": "점유",
+      "target": "회고-○○○"
+    },
+    {
+      "source": "점유",
+      "target": "동료-창작자-모집"
+    },
+    {
+      "source": "점유",
+      "target": "푸쉬"
+    },
+    {
+      "source": "점유",
+      "target": "호의적-태도를-못-믿겠다"
+    },
+    {
+      "source": "점유",
+      "target": "아주-솔직한-이야기"
+    },
+    {
+      "source": "점유",
+      "target": "시체를-넘는-행군"
+    },
+    {
+      "source": "점유",
+      "target": "해파리-연가"
+    },
+    {
+      "source": "점유",
+      "target": "공연을-알리는-말씨"
+    },
+    {
+      "source": "점유",
+      "target": "시와 손 (시와 손)"
+    },
+    {
+      "source": "점유",
+      "target": "무병"
+    },
+    {
+      "source": "점유",
+      "target": "사건"
+    },
+    {
+      "source": "점유",
+      "target": "집"
+    },
+    {
+      "source": "푸쉬",
+      "target": "점유"
+    },
+    {
+      "source": "아주-솔직한-이야기",
+      "target": "점유"
+    },
+    {
+      "source": "시체를-넘는-행군",
+      "target": "점유"
+    },
+    {
+      "source": "공연을-알리는-말씨",
+      "target": "점유"
+    },
+    {
+      "source": "회고-이승민",
+      "target": "점유"
+    },
+    {
+      "source": "시와-손-관객응답-2023",
+      "target": "2023 시와 손 관객설문.sfrm - 사이냅 폼"
+    },
+    {
+      "source": "시와-손-관객응답-2023",
+      "target": "시와 손 (시와 손)"
+    },
+    {
+      "source": "시와-손-관객응답-2023",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "만들고-부수지-못함",
+      "target": "시와 손 (시와 손)"
+    },
+    {
+      "source": "만들고-부수지-못함",
+      "target": "집"
+    },
+    {
+      "source": "만들고-부수지-못함",
+      "target": "식사"
+    },
+    {
+      "source": "시-손-설-3존재",
+      "target": "시와 손 (시와 손)"
+    },
+    {
+      "source": "시-손-설-3존재",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "시-손-설-3존재",
+      "target": "사, 육"
+    },
+    {
+      "source": "시-손-설-3존재",
+      "target": "식사"
+    },
+    {
+      "source": "시와 손 (시와 손)",
+      "target": "4부작"
+    },
+    {
+      "source": "시와 손 (시와 손)",
+      "target": "person_11"
+    },
+    {
+      "source": "시와 손 (시와 손)",
+      "target": "만들고-부수지-못함"
+    },
+    {
+      "source": "시와 손 (시와 손)",
+      "target": "완전의-역설"
+    },
+    {
+      "source": "시와 손 (시와 손)",
+      "target": "시-손-설-3존재"
+    },
+    {
+      "source": "시와 손 (시와 손)",
+      "target": "시와-손-관객응답-2023"
+    },
+    {
+      "source": "시와 손 (시와 손)",
+      "target": "시와 손 221215"
+    },
+    {
+      "source": "시와 손 (시와 손)",
+      "target": "PLOT_STAGE_공모신청서_씨어터프로젝트 유배"
+    },
+    {
+      "source": "시와 손 (시와 손)",
+      "target": "2023 시와 손 관객설문.sfrm - 사이냅 폼"
+    },
+    {
+      "source": "시와 손 (시와 손)",
+      "target": "사, 육"
+    },
+    {
+      "source": "시와 손 (시와 손)",
+      "target": "수면 (수면)"
+    },
+    {
+      "source": "시와 손 (시와 손)",
+      "target": "집"
+    },
+    {
+      "source": "시와 손 (시와 손)",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "완전의-역설",
+      "target": "시와 손 (시와 손)"
+    },
+    {
+      "source": "완전의-역설",
+      "target": "집"
+    },
+    {
+      "source": "완전의-역설",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "수면 (수면)",
+      "target": "4부작"
+    },
+    {
+      "source": "수면 (수면)",
+      "target": "person_11"
+    },
+    {
+      "source": "수면 (수면)",
+      "target": "INDEX (2022 <수면>)"
+    },
+    {
+      "source": "수면 (수면)",
+      "target": "사, 육"
+    },
+    {
+      "source": "수면 (수면)",
+      "target": "집"
+    },
+    {
+      "source": "수면 (수면)",
+      "target": "핵심 모티프"
+    },
+    {
+      "source": "수면 (수면)",
+      "target": "연기·연출 방법"
+    },
+    {
+      "source": "수면 (수면)",
+      "target": "4부작 맥락"
+    },
+    {
+      "source": "수면 (수면)",
+      "target": "형식적 실험"
+    },
+    {
+      "source": "유배-방향성-2018",
+      "target": "떠나기-전-편지-2019"
+    },
+    {
+      "source": "사팀-육팀-이원구조",
+      "target": "신중심사회-마르두크"
+    },
+    {
+      "source": "사팀-육팀-이원구조",
+      "target": "여섯-인물-좌표"
+    },
+    {
+      "source": "두-작품의-차이-2019",
+      "target": "2017-자기회고"
+    },
+    {
+      "source": "두-작품의-차이-2019",
+      "target": "떠나기-전-편지-2019"
+    },
+    {
+      "source": "극중극-노트",
+      "target": "방법론-용어집-2018"
+    },
+    {
+      "source": "극중극-노트",
+      "target": "자유로워져야-하는-시점"
+    },
+    {
+      "source": "여섯-인물-좌표",
+      "target": "네-인물의-좌표"
+    },
+    {
+      "source": "여섯-인물-좌표",
+      "target": "신중심사회-마르두크"
+    },
+    {
+      "source": "여섯-인물-좌표",
+      "target": "거세와-잉태의-통제"
+    },
+    {
+      "source": "방법론-용어집-2018",
+      "target": "자유로워져야-하는-시점"
+    },
+    {
+      "source": "방법론-용어집-2018",
+      "target": "기호-감각의-방아쇠"
+    },
+    {
+      "source": "방법론-용어집-2018",
+      "target": "극중극-노트"
+    },
+    {
+      "source": "사, 육",
+      "target": "4부작"
+    },
+    {
+      "source": "사, 육",
+      "target": "person_11"
+    },
+    {
+      "source": "사, 육",
+      "target": "person_15"
+    },
+    {
+      "source": "사, 육",
+      "target": "person_09"
+    },
+    {
+      "source": "사, 육",
+      "target": "person_01"
+    },
+    {
+      "source": "사, 육",
+      "target": "person_17"
+    },
+    {
+      "source": "사, 육",
+      "target": "person_14"
+    },
+    {
+      "source": "사, 육",
+      "target": "person_07"
+    },
+    {
+      "source": "사, 육",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "사, 육",
+      "target": "방법론-용어집-2018"
+    },
+    {
+      "source": "사, 육",
+      "target": "신중심사회-마르두크"
+    },
+    {
+      "source": "사, 육",
+      "target": "사팀-육팀-이원구조"
+    },
+    {
+      "source": "사, 육",
+      "target": "여섯-인물-좌표"
+    },
+    {
+      "source": "사, 육",
+      "target": "거세와-잉태의-통제"
+    },
+    {
+      "source": "사, 육",
+      "target": "두-작품의-차이-2019"
+    },
+    {
+      "source": "사, 육",
+      "target": "극중극-노트"
+    },
+    {
+      "source": "사, 육",
+      "target": "떠나기-전-편지-2019"
+    },
+    {
+      "source": "사, 육",
+      "target": "유배-방향성-2018"
+    },
+    {
+      "source": "사, 육",
+      "target": "INDEX (2023 시와손)"
+    },
+    {
+      "source": "사, 육",
+      "target": "식사"
+    },
+    {
+      "source": "사, 육",
+      "target": "수면 (수면)"
+    },
+    {
+      "source": "사, 육",
+      "target": "집"
+    },
+    {
+      "source": "신중심사회-마르두크",
+      "target": "사팀-육팀-이원구조"
+    },
+    {
+      "source": "신중심사회-마르두크",
+      "target": "거세와-잉태의-통제"
+    },
+    {
+      "source": "신중심사회-마르두크",
+      "target": "여섯-인물-좌표"
+    },
+    {
+      "source": "거세와-잉태의-통제",
+      "target": "신중심사회-마르두크"
+    },
+    {
+      "source": "거세와-잉태의-통제",
+      "target": "여섯-인물-좌표"
+    },
+    {
+      "source": "떠나기-전-편지-2019",
+      "target": "두-작품의-차이-2019"
+    },
+    {
+      "source": "떠나기-전-편지-2019",
+      "target": "person_11"
+    },
+    {
+      "source": "떠나기-전-편지-2019",
+      "target": "2017-자기회고"
+    },
+    {
+      "source": "떠나기-전-편지-2019",
+      "target": "유배-방향성-2018"
+    },
+    {
+      "source": "자유로워져야-하는-시점",
+      "target": "방법론-용어집-2018"
+    },
+    {
+      "source": "자유로워져야-하는-시점",
+      "target": "기호-감각의-방아쇠"
+    },
+    {
+      "source": "첫공-인사-무해와-가닿음",
+      "target": "무병"
+    },
+    {
+      "source": "스코어-연기-언어-정립",
+      "target": "무병"
+    },
+    {
+      "source": "장별-구조-6장",
+      "target": "무병"
+    },
+    {
+      "source": "엑서사이즈-부연-2회차",
+      "target": "무병"
+    },
+    {
+      "source": "사회-명제-무병묘",
+      "target": "무병"
+    },
+    {
+      "source": "엑서사이즈-부연-1회차",
+      "target": "무병"
+    },
+    {
+      "source": "무병",
+      "target": "4부작"
+    },
+    {
+      "source": "무병",
+      "target": "사회-명제-무병묘"
+    },
+    {
+      "source": "무병",
+      "target": "장별-구조-6장"
+    },
+    {
+      "source": "무병",
+      "target": "스코어-설계"
+    },
+    {
+      "source": "무병",
+      "target": "스코어-연기-언어-정립"
+    },
+    {
+      "source": "무병",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "무병",
+      "target": "엑서사이즈-부연-1회차"
+    },
+    {
+      "source": "무병",
+      "target": "도취-되어지는몸"
+    },
+    {
+      "source": "무병",
+      "target": "엑서사이즈-부연-2회차"
+    },
+    {
+      "source": "무병",
+      "target": "첫공-인사-무해와-가닿음"
+    },
+    {
+      "source": "무병",
+      "target": "집"
+    },
+    {
+      "source": "들뢰즈 되기",
+      "target": "무병"
+    },
+    {
+      "source": "들뢰즈 되기",
+      "target": "변방연극제_창작자소개서"
+    },
+    {
+      "source": "들뢰즈 되기",
+      "target": "변방연극제_작업구상소개서"
+    },
+    {
+      "source": "들뢰즈 되기",
+      "target": "변방연극제_참가신청서"
+    },
+    {
+      "source": "들뢰즈 되기",
+      "target": "person_11"
+    },
+    {
+      "source": "박자 자발적 이탈 — 참조자료",
+      "target": "들뢰즈 되기"
+    },
+    {
+      "source": "person_01",
+      "target": "사, 육"
+    },
+    {
+      "source": "person_03",
+      "target": "세션유배1기"
+    },
+    {
+      "source": "person_04",
+      "target": "세션유배1기"
+    },
+    {
+      "source": "person_05",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "person_05",
+      "target": "스코어-설계"
+    },
+    {
+      "source": "person_06",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "person_06",
+      "target": "스코어-설계"
+    },
+    {
+      "source": "person_07",
+      "target": "사, 육"
+    },
+    {
+      "source": "person_08",
+      "target": "세션유배1기"
+    },
+    {
+      "source": "person_08",
+      "target": "점유"
+    },
+    {
+      "source": "person_08",
+      "target": "person_11"
+    },
+    {
+      "source": "person_09",
+      "target": "세션유배1기"
+    },
+    {
+      "source": "person_09",
+      "target": "사건"
+    },
+    {
+      "source": "person_09",
+      "target": "사, 육"
+    },
+    {
+      "source": "person_09",
+      "target": "person_11"
+    },
+    {
+      "source": "person_10",
+      "target": "세션유배1기"
+    },
+    {
+      "source": "person_11",
+      "target": "변방연극제2026"
+    },
+    {
+      "source": "person_11",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "person_11",
+      "target": "세션유배1기"
+    },
+    {
+      "source": "person_11",
+      "target": "사건"
+    },
+    {
+      "source": "person_11",
+      "target": "집"
+    },
+    {
+      "source": "person_11",
+      "target": "변방연극제_창작자소개서"
+    },
+    {
+      "source": "person_11",
+      "target": "변방연극제_작업구상소개서"
+    },
+    {
+      "source": "person_11",
+      "target": "변방연극제_참가신청서"
+    },
+    {
+      "source": "person_11",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "person_13",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "person_13",
+      "target": "스코어-설계"
+    },
+    {
+      "source": "person_14",
+      "target": "사, 육"
+    },
+    {
+      "source": "person_15",
+      "target": "사, 육"
+    },
+    {
+      "source": "person_16",
+      "target": "세션유배1기"
+    },
+    {
+      "source": "person_17",
+      "target": "사, 육"
+    },
+    {
+      "source": "person_18",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "person_18",
+      "target": "스코어-설계"
+    },
+    {
+      "source": "주체-층위",
+      "target": "사건"
+    },
+    {
+      "source": "주체-층위",
+      "target": "9단계-트리거"
+    },
+    {
+      "source": "주체-층위",
+      "target": "관객-체험-로그"
+    },
+    {
+      "source": "주체-층위",
+      "target": "person_09"
+    },
+    {
+      "source": "주체-층위",
+      "target": "person_11"
+    },
+    {
+      "source": "주체-층위",
+      "target": "4 층위"
+    },
+    {
+      "source": "주체-층위",
+      "target": "되기-실패"
+    },
+    {
+      "source": "워크숍1기_2기_비교분석",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "워크숍1기_2기_비교분석",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "워크숍1기_2기_비교분석",
+      "target": "person_18"
+    },
+    {
+      "source": "워크숍1기_2기_비교분석",
+      "target": "도취-되어지는몸"
+    },
+    {
+      "source": "워크숍1기_2기_비교분석",
+      "target": "스코어-설계"
+    },
+    {
+      "source": "워크숍1기_2기_비교분석",
+      "target": "사물-되기"
+    },
+    {
+      "source": "워크숍1기_2기_비교분석",
+      "target": "구조-통과"
+    },
+    {
+      "source": "신체-경향성",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "신체-경향성",
+      "target": "세션유배1기"
+    },
+    {
+      "source": "신체-경향성",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "신체-경향성",
+      "target": "4 층위"
+    },
+    {
+      "source": "신체-경향성",
+      "target": "중심축"
+    },
+    {
+      "source": "신체-경향성",
+      "target": "person_18"
+    },
+    {
+      "source": "신체-경향성",
+      "target": "person_06"
+    },
+    {
+      "source": "신체-경향성",
+      "target": "person_05"
+    },
+    {
+      "source": "신체-경향성",
+      "target": "person_13"
+    },
+    {
+      "source": "신체-경향성",
+      "target": "7축"
+    },
+    {
+      "source": "신체-경향성",
+      "target": "구조-통과"
+    },
+    {
+      "source": "스코어-설계",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "스코어-설계",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "스코어-설계",
+      "target": "구조-설계"
+    },
+    {
+      "source": "스코어-설계",
+      "target": "4 층위"
+    },
+    {
+      "source": "스코어-설계",
+      "target": "person_06"
+    },
+    {
+      "source": "스코어-설계",
+      "target": "person_18"
+    },
+    {
+      "source": "스코어-설계",
+      "target": "person_05"
+    },
+    {
+      "source": "스코어-설계",
+      "target": "person_13"
+    },
+    {
+      "source": "스코어-설계",
+      "target": "신체-경향성"
+    },
+    {
+      "source": "관객-체험-로그",
+      "target": "사건"
+    },
+    {
+      "source": "관객-체험-로그",
+      "target": "4 층위"
+    },
+    {
+      "source": "관객-체험-로그",
+      "target": "7축"
+    },
+    {
+      "source": "관객-체험-로그",
+      "target": "AI-사전검증"
+    },
+    {
+      "source": "관객-체험-로그",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "관객-체험-로그",
+      "target": "9단계-트리거"
+    },
+    {
+      "source": "4 층위",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "4 층위",
+      "target": "세션유배1기"
+    },
+    {
+      "source": "4 층위",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "4 층위",
+      "target": "7축"
+    },
+    {
+      "source": "4 층위",
+      "target": "중심축"
+    },
+    {
+      "source": "4 층위",
+      "target": "신체-경향성"
+    },
+    {
+      "source": "AI-사전검증",
+      "target": "사건"
+    },
+    {
+      "source": "AI-사전검증",
+      "target": "변방연극제2026"
+    },
+    {
+      "source": "AI-사전검증",
+      "target": "9단계-트리거"
+    },
+    {
+      "source": "AI-사전검증",
+      "target": "7축"
+    },
+    {
+      "source": "AI-사전검증",
+      "target": "신체-경향성"
+    },
+    {
+      "source": "AI-사전검증",
+      "target": "변방연극제_창작자소개서"
+    },
+    {
+      "source": "AI-사전검증",
+      "target": "변방연극제_작업구상소개서"
+    },
+    {
+      "source": "AI-사전검증",
+      "target": "관객-체험-로그"
+    },
+    {
+      "source": "중심축",
+      "target": "세션유배1기"
+    },
+    {
+      "source": "중심축",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "중심축",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "중심축",
+      "target": "4 층위"
+    },
+    {
+      "source": "중심축",
+      "target": "신체-경향성"
+    },
+    {
+      "source": "중심축",
+      "target": "person_09"
+    },
+    {
+      "source": "중심축",
+      "target": "person_03"
+    },
+    {
+      "source": "중심축",
+      "target": "person_04"
+    },
+    {
+      "source": "중심축",
+      "target": "person_10"
+    },
+    {
+      "source": "중심축",
+      "target": "person_08"
+    },
+    {
+      "source": "중심축",
+      "target": "person_16"
+    },
+    {
+      "source": "중심축",
+      "target": "person_11"
+    },
+    {
+      "source": "중심축",
+      "target": "person_18"
+    },
+    {
+      "source": "중심축",
+      "target": "person_06"
+    },
+    {
+      "source": "중심축",
+      "target": "person_05"
+    },
+    {
+      "source": "중심축",
+      "target": "person_13"
+    },
+    {
+      "source": "중심축",
+      "target": "7축"
+    },
+    {
+      "source": "중심축",
+      "target": "스코어-설계"
+    },
+    {
+      "source": "9단계-트리거",
+      "target": "사건"
+    },
+    {
+      "source": "9단계-트리거",
+      "target": "관객-체험-로그"
+    },
+    {
+      "source": "9단계-트리거",
+      "target": "AI-사전검증"
+    },
+    {
+      "source": "9단계-트리거",
+      "target": "변방연극제_창작자소개서"
+    },
+    {
+      "source": "9단계-트리거",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "7축",
+      "target": "변방연극제2026"
+    },
+    {
+      "source": "7축",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "7축",
+      "target": "세션유배1기"
+    },
+    {
+      "source": "7축",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "7축",
+      "target": "중심축"
+    },
+    {
+      "source": "7축",
+      "target": "변방연극제_작업구상소개서"
+    },
+    {
+      "source": "7축",
+      "target": "변방연극제_창작자소개서"
+    },
+    {
+      "source": "7축",
+      "target": "4 층위"
+    },
+    {
+      "source": "7축",
+      "target": "신체-경향성"
+    },
+    {
+      "source": "7축",
+      "target": "관객-체험-로그"
+    },
+    {
+      "source": "7축",
+      "target": "사건"
+    },
+    {
+      "source": "7축",
+      "target": "AI-사전검증"
+    },
+    {
+      "source": "박자쪼개기",
+      "target": "변방연극제2026"
+    },
+    {
+      "source": "박자쪼개기",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "박자쪼개기",
+      "target": "세션유배1기"
+    },
+    {
+      "source": "박자쪼개기",
+      "target": "7축"
+    },
+    {
+      "source": "박자쪼개기",
+      "target": "4부작"
+    },
+    {
+      "source": "박자쪼개기",
+      "target": "변방연극제_창작자소개서"
+    },
+    {
+      "source": "박자쪼개기",
+      "target": "변방연극제_작업구상소개서"
+    },
+    {
+      "source": "박자쪼개기",
+      "target": "변방연극제_참가신청서"
+    },
+    {
+      "source": "박자쪼개기",
+      "target": "field-관계장"
+    },
+    {
+      "source": "박자쪼개기",
+      "target": "되기-리토르넬로"
+    },
+    {
+      "source": "박자쪼개기",
+      "target": "도취-되어지는몸"
+    },
+    {
+      "source": "박자쪼개기",
+      "target": "구조-통과"
+    },
+    {
+      "source": "박자쪼개기",
+      "target": "4 층위"
+    },
+    {
+      "source": "박자쪼개기",
+      "target": "신체-경향성"
+    },
+    {
+      "source": "되기-리토르넬로",
+      "target": "변방연극제2026"
+    },
+    {
+      "source": "되기-리토르넬로",
+      "target": "세션유배1기"
+    },
+    {
+      "source": "되기-리토르넬로",
+      "target": "사건"
+    },
+    {
+      "source": "되기-리토르넬로",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "되기-리토르넬로",
+      "target": "되기와-응답의-윤리"
+    },
+    {
+      "source": "되기-리토르넬로",
+      "target": "도취-되어지는몸"
+    },
+    {
+      "source": "되기-리토르넬로",
+      "target": "변방연극제_작업구상소개서"
+    },
+    {
+      "source": "되기-리토르넬로",
+      "target": "변방연극제_창작자소개서"
+    },
+    {
+      "source": "구조-통과",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "구조-통과",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "구조-통과",
+      "target": "신체-경향성"
+    },
+    {
+      "source": "구조-통과",
+      "target": "구조-설계"
+    },
+    {
+      "source": "구조-통과",
+      "target": "스코어-설계"
+    },
+    {
+      "source": "구조-설계",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "구조-설계",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "구조-설계",
+      "target": "구조-통과"
+    },
+    {
+      "source": "구조-설계",
+      "target": "스코어-설계"
+    },
+    {
+      "source": "구조-설계",
+      "target": "신체-경향성"
+    },
+    {
+      "source": "되기-실패",
+      "target": "사건"
+    },
+    {
+      "source": "되기-실패",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "되기-실패",
+      "target": "변방연극제2026"
+    },
+    {
+      "source": "되기-실패",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "되기-실패",
+      "target": "되기-리토르넬로"
+    },
+    {
+      "source": "되기-실패",
+      "target": "변방연극제_작업구상소개서"
+    },
+    {
+      "source": "되기-실패",
+      "target": "도취-되어지는몸"
+    },
+    {
+      "source": "되기-실패",
+      "target": "주체-층위"
+    },
+    {
+      "source": "되기-실패",
+      "target": "신체-경향성"
+    },
+    {
+      "source": "4부작",
+      "target": "변방연극제2026"
+    },
+    {
+      "source": "4부작",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "4부작",
+      "target": "집"
+    },
+    {
+      "source": "4부작",
+      "target": "도취-되어지는몸"
+    },
+    {
+      "source": "4부작",
+      "target": "9단계-트리거"
+    },
+    {
+      "source": "4부작",
+      "target": "시와 손 (시와 손)"
+    },
+    {
+      "source": "4부작",
+      "target": "점유"
+    },
+    {
+      "source": "4부작",
+      "target": "무병"
+    },
+    {
+      "source": "4부작",
+      "target": "사건"
+    },
+    {
+      "source": "4부작",
+      "target": "변방연극제_창작자소개서"
+    },
+    {
+      "source": "4부작",
+      "target": "변방연극제_작업구상소개서"
+    },
+    {
+      "source": "4부작",
+      "target": "field-관계장"
+    },
+    {
+      "source": "되기와-응답의-윤리",
+      "target": "세션유배1기"
+    },
+    {
+      "source": "되기와-응답의-윤리",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "되기와-응답의-윤리",
+      "target": "되기-리토르넬로"
+    },
+    {
+      "source": "되기와-응답의-윤리",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "되기와-응답의-윤리",
+      "target": "변방연극제2026"
+    },
+    {
+      "source": "되기와-응답의-윤리",
+      "target": "중심축"
+    },
+    {
+      "source": "사물-되기",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "사물-되기",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "사물-되기",
+      "target": "도취-되어지는몸"
+    },
+    {
+      "source": "사물-되기",
+      "target": "세션유배1기"
+    },
+    {
+      "source": "사물-되기",
+      "target": "되기-리토르넬로"
+    },
+    {
+      "source": "도취-되어지는몸",
+      "target": "변방연극제2026"
+    },
+    {
+      "source": "도취-되어지는몸",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "도취-되어지는몸",
+      "target": "사건"
+    },
+    {
+      "source": "도취-되어지는몸",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "도취-되어지는몸",
+      "target": "되기-리토르넬로"
+    },
+    {
+      "source": "도취-되어지는몸",
+      "target": "변방연극제_창작자소개서"
+    },
+    {
+      "source": "도취-되어지는몸",
+      "target": "사물-되기"
+    },
+    {
+      "source": "field-관계장",
+      "target": "변방연극제2026"
+    },
+    {
+      "source": "field-관계장",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "field-관계장",
+      "target": "4부작"
+    },
+    {
+      "source": "field-관계장",
+      "target": "변방연극제_작업구상소개서"
+    },
+    {
+      "source": "field-관계장",
+      "target": "변방연극제_창작자소개서"
+    },
+    {
+      "source": "변방연극제_작업구상소개서",
+      "target": "변방연극제2026"
+    },
+    {
+      "source": "2026-05-12_포트폴리오_사건_AI활용",
+      "target": "사건"
+    },
+    {
+      "source": "변방연극제_참가신청서",
+      "target": "변방연극제2026"
+    },
+    {
+      "source": "변방연극제_창작자소개서",
+      "target": "변방연극제2026"
+    },
+    {
+      "source": "Outputs_MOC",
+      "target": "변방연극제_창작자소개서"
+    },
+    {
+      "source": "Outputs_MOC",
+      "target": "변방연극제_작업구상소개서"
+    },
+    {
+      "source": "Outputs_MOC",
+      "target": "변방연극제_참가신청서"
+    },
+    {
+      "source": "Projects_MOC",
+      "target": "4부작"
+    },
+    {
+      "source": "Projects_MOC",
+      "target": "집"
+    },
+    {
+      "source": "Projects_MOC",
+      "target": "변방연극제2026"
+    },
+    {
+      "source": "Projects_MOC",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "Projects_MOC",
+      "target": "식사"
+    },
+    {
+      "source": "Projects_MOC",
+      "target": "사, 육"
+    },
+    {
+      "source": "Projects_MOC",
+      "target": "수면 (수면)"
+    },
+    {
+      "source": "Projects_MOC",
+      "target": "시와 손 (시와 손)"
+    },
+    {
+      "source": "Projects_MOC",
+      "target": "점유"
+    },
+    {
+      "source": "Projects_MOC",
+      "target": "무병"
+    },
+    {
+      "source": "Projects_MOC",
+      "target": "사건"
+    },
+    {
+      "source": "Projects_MOC",
+      "target": "세션유배1기"
+    },
+    {
+      "source": "People_MOC",
+      "target": "person_11"
+    },
+    {
+      "source": "People_MOC",
+      "target": "워크숍2기"
+    },
+    {
+      "source": "People_MOC",
+      "target": "person_18"
+    },
+    {
+      "source": "People_MOC",
+      "target": "person_06"
+    },
+    {
+      "source": "People_MOC",
+      "target": "person_05"
+    },
+    {
+      "source": "People_MOC",
+      "target": "person_13"
+    },
+    {
+      "source": "People_MOC",
+      "target": "세션유배1기"
+    },
+    {
+      "source": "People_MOC",
+      "target": "person_09"
+    },
+    {
+      "source": "People_MOC",
+      "target": "사건"
+    },
+    {
+      "source": "People_MOC",
+      "target": "person_03"
+    },
+    {
+      "source": "People_MOC",
+      "target": "person_04"
+    },
+    {
+      "source": "People_MOC",
+      "target": "person_10"
+    },
+    {
+      "source": "People_MOC",
+      "target": "person_08"
+    },
+    {
+      "source": "People_MOC",
+      "target": "person_16"
+    },
+    {
+      "source": "Concepts_MOC",
+      "target": "박자쪼개기"
+    },
+    {
+      "source": "Concepts_MOC",
+      "target": "사물-되기"
+    },
+    {
+      "source": "Concepts_MOC",
+      "target": "도취-되어지는몸"
+    },
+    {
+      "source": "Concepts_MOC",
+      "target": "되기-실패"
+    },
+    {
+      "source": "Concepts_MOC",
+      "target": "구조-통과"
+    },
+    {
+      "source": "Concepts_MOC",
+      "target": "구조-설계"
+    },
+    {
+      "source": "Concepts_MOC",
+      "target": "스코어-설계"
+    },
+    {
+      "source": "Concepts_MOC",
+      "target": "4 층위"
+    },
+    {
+      "source": "Concepts_MOC",
+      "target": "7축"
+    },
+    {
+      "source": "Concepts_MOC",
+      "target": "중심축"
+    },
+    {
+      "source": "Concepts_MOC",
+      "target": "신체-경향성"
+    },
+    {
+      "source": "Concepts_MOC",
+      "target": "관객-체험-로그"
+    },
+    {
+      "source": "Concepts_MOC",
+      "target": "9단계-트리거"
+    },
+    {
+      "source": "Concepts_MOC",
+      "target": "주체-층위"
+    },
+    {
+      "source": "Concepts_MOC",
+      "target": "AI-사전검증"
+    },
+    {
+      "source": "Concepts_MOC",
+      "target": "되기와-응답의-윤리"
+    },
+    {
+      "source": "Concepts_MOC",
+      "target": "4부작"
+    },
+    {
+      "source": "Concepts_MOC",
+      "target": "field-관계장"
+    },
+    {
+      "source": "Concepts_MOC",
+      "target": "되기-리토르넬로"
+    },
+    {
+      "source": "INDEX (2023 시와손)",
+      "target": "4부작"
+    },
+    {
+      "source": "INDEX (2023 시와손)",
+      "target": "시와 손 (시와 손)"
+    },
+    {
+      "source": "수면 (2022 <수면>)",
+      "target": "수면 (수면)"
+    },
+    {
+      "source": "수면 (2022 <수면>)",
+      "target": "핵심 모티프"
+    },
+    {
+      "source": "수면 (2022 <수면>)",
+      "target": "연기·연출 방법"
+    },
+    {
+      "source": "수면 (2022 <수면>)",
+      "target": "4부작 맥락"
+    },
+    {
+      "source": "수면 (2022 <수면>)",
+      "target": "형식적 실험"
+    },
+    {
+      "source": "INDEX (2022 <수면>)",
+      "target": "수면 (수면)"
+    },
+    {
+      "source": "INDEX (2022 <수면>)",
+      "target": "수면 (2022 <수면>)"
+    },
+    {
+      "source": "INDEX (2022 <수면>)",
+      "target": "핵심 모티프"
+    },
+    {
+      "source": "INDEX (2022 <수면>)",
+      "target": "연기·연출 방법"
+    },
+    {
+      "source": "INDEX (2022 <수면>)",
+      "target": "4부작 맥락"
+    },
+    {
+      "source": "INDEX (2022 <수면>)",
+      "target": "형식적 실험"
+    }
+  ],
+  "display": {
+    "showOrphans": true,
+    "showArrow": false,
+    "nodeSizeMultiplier": 1.46642795138889,
+    "lineSizeMultiplier": 1.48152777777778,
+    "linkDistance": 500,
+    "repelStrength": 6.59461805555556,
+    "centerStrength": 0.336979166666667,
+    "textFadeMultiplier": -3,
+    "colorGroups": [
+      {
+        "query": "tag:#연구방향  ",
+        "color": {
+          "a": 1,
+          "rgb": 7583146
+        }
+      },
+      {
+        "query": "tag:#윤리구조",
+        "color": {
+          "a": 1,
+          "rgb": 15657299
+        }
+      },
+      {
+        "query": "tag:#프로젝트",
+        "color": {
+          "a": 1,
+          "rgb": 14048348
+        }
+      }
+    ]
+  },
+  "stats": {
+    "nodes": 165,
+    "edges": 527
+  }
+}

@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>yoube vault graph</title>
+<style>
+  :root {
+    --bg: #1e1e1e;
+    --node-default: #888;
+    --node-stroke: #1e1e1e;
+    --link: #444;
+    --link-hi: #aaa;
+    --text: #ddd;
+    --text-dim: #666;
+    --panel: rgba(30, 30, 30, 0.85);
+  }
+  * { box-sizing: border-box; }
+  html, body {
+    margin: 0; padding: 0; width: 100%; height: 100%;
+    background: var(--bg); color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "SF Pro", "Helvetica Neue", sans-serif;
+    overflow: hidden;
+  }
+  #graph { width: 100vw; height: 100vh; display: block; cursor: grab; }
+  #graph:active { cursor: grabbing; }
+
+  #panel {
+    position: fixed; top: 12px; left: 12px;
+    background: var(--panel);
+    backdrop-filter: blur(8px);
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: 10px 12px;
+    font-size: 12px;
+    min-width: 200px;
+    max-width: 260px;
+    line-height: 1.6;
+  }
+  #panel .title { font-weight: 600; margin-bottom: 6px; font-size: 13px; }
+  #panel .stat { color: var(--text-dim); font-size: 11px; }
+  #search {
+    width: 100%;
+    background: #2a2a2a;
+    border: 1px solid #444;
+    color: var(--text);
+    padding: 5px 8px;
+    border-radius: 4px;
+    font-size: 12px;
+    margin: 6px 0;
+    outline: none;
+  }
+  #search:focus { border-color: #666; }
+  .legend { margin-top: 8px; }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 11px; padding: 2px 0; }
+  .legend-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+
+  #hover-info {
+    position: fixed; bottom: 12px; left: 12px;
+    background: var(--panel);
+    border: 1px solid #333;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 12px;
+    max-width: 380px;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+  }
+  #hover-info.visible { opacity: 1; }
+  #hover-info .name { font-weight: 600; }
+  #hover-info .folder { color: var(--text-dim); font-size: 11px; margin-top: 2px; }
+  #hover-info .tags { color: #888; font-size: 11px; margin-top: 2px; }
+  #hover-info .degree { color: var(--text-dim); font-size: 11px; margin-top: 2px; }
+
+  #fullscreen-btn {
+    position: fixed; top: 12px; right: 12px;
+    background: var(--panel);
+    border: 1px solid #333;
+    color: var(--text);
+    padding: 6px 10px;
+    border-radius: 6px;
+    font-size: 11px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  #fullscreen-btn:hover { background: #2a2a2a; }
+
+  text { font-family: inherit; pointer-events: none; user-select: none; }
+  .node { cursor: pointer; }
+</style>
+</head>
+<body>
+<svg id="graph"></svg>
+
+<div id="panel">
+  <div class="title">yoube vault</div>
+  <div class="stat"><span id="node-count">…</span> notes · <span id="edge-count">…</span> links</div>
+  <input id="search" type="text" placeholder="검색…" />
+  <label style="display:flex; align-items:center; gap:6px; font-size:11px; color:var(--text-dim); cursor:pointer; margin-top:2px;">
+    <input id="toggle-orphans" type="checkbox" style="margin:0;" />
+    고립 노드 표시
+  </label>
+  <div class="legend" id="legend"></div>
+</div>
+
+<div id="hover-info">
+  <div class="name"></div>
+  <div class="folder"></div>
+  <div class="tags"></div>
+  <div class="degree"></div>
+</div>
+
+<a id="fullscreen-btn" href="?fs=1" target="_blank">새 탭에서 열기 ↗</a>
+
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+(async function () {
+  const data = await fetch("graph.json").then(r => r.json());
+  const { nodes: allNodes, edges, display } = data;
+
+  // Orphan visibility — persisted across reloads. Default: hidden.
+  const showOrphans = localStorage.getItem("showOrphans") === "true";
+  const nodes = allNodes.filter(n => showOrphans || n.degree > 0);
+
+  document.getElementById("node-count").textContent = nodes.length;
+  document.getElementById("edge-count").textContent = edges.length;
+
+  const orphanToggle = document.getElementById("toggle-orphans");
+  orphanToggle.checked = showOrphans;
+  orphanToggle.addEventListener("change", () => {
+    localStorage.setItem("showOrphans", orphanToggle.checked);
+    location.reload();
+  });
+
+  // Build legend from color groups
+  const legendEl = document.getElementById("legend");
+  if (display.colorGroups && display.colorGroups.length) {
+    display.colorGroups.forEach(g => {
+      const hex = "#" + g.color.rgb.toString(16).padStart(6, "0").toUpperCase();
+      const label = g.query.replace("tag:", "").trim();
+      const item = document.createElement("div");
+      item.className = "legend-item";
+      item.innerHTML = `<span class="legend-dot" style="background:${hex}"></span>${label}`;
+      legendEl.appendChild(item);
+    });
+    const def = document.createElement("div");
+    def.className = "legend-item";
+    def.innerHTML = `<span class="legend-dot" style="background:#888"></span><span style="color:#888">기타</span>`;
+    legendEl.appendChild(def);
+  }
+
+  const svg = d3.select("#graph");
+  const width = window.innerWidth;
+  const height = window.innerHeight;
+  svg.attr("viewBox", [0, 0, width, height]);
+
+  const container = svg.append("g");
+
+  // Zoom / pan
+  const zoom = d3.zoom()
+    .scaleExtent([0.1, 8])
+    .on("zoom", (ev) => {
+      container.attr("transform", ev.transform);
+      // text fade based on zoom
+      const k = ev.transform.k;
+      container.selectAll("text").style("opacity", Math.min(1, Math.max(0, (k - 0.5) * 1.2)));
+    });
+  svg.call(zoom);
+
+  // Map data
+  const nodeMap = new Map(nodes.map(n => [n.id, n]));
+  const links = edges.map(e => ({ source: e.source, target: e.target }));
+
+  // Node radius from degree (sqrt scaling, base size from obsidian)
+  const sizeMult = display.nodeSizeMultiplier || 1;
+  const baseR = 3.5 * sizeMult;
+  const radius = (n) => baseR + Math.sqrt(n.degree || 0) * 1.4 * sizeMult;
+
+  // Color resolution
+  const colorOf = (n) => n.color || "#888";
+
+  // Force simulation — mapped from obsidian params
+  const linkDist = (display.linkDistance || 250) * 0.3;
+  const charge = -(display.repelStrength || 10) * 30;
+  const center = (display.centerStrength || 0.5) * 0.15;
+
+  const sim = d3.forceSimulation(nodes)
+    .force("link", d3.forceLink(links).id(d => d.id).distance(linkDist).strength(0.6))
+    .force("charge", d3.forceManyBody().strength(charge))
+    .force("center", d3.forceCenter(width / 2, height / 2))
+    .force("x", d3.forceX(width / 2).strength(center))
+    .force("y", d3.forceY(height / 2).strength(center))
+    .force("collide", d3.forceCollide().radius(n => radius(n) + 2));
+
+  const lineMult = display.lineSizeMultiplier || 1;
+
+  const link = container.append("g")
+    .attr("stroke", "var(--link)")
+    .attr("stroke-opacity", 0.6)
+    .selectAll("line")
+    .data(links)
+    .join("line")
+    .attr("stroke-width", 0.8 * lineMult);
+
+  const node = container.append("g")
+    .selectAll("g")
+    .data(nodes)
+    .join("g")
+    .attr("class", "node")
+    .call(drag(sim));
+
+  node.append("circle")
+    .attr("r", radius)
+    .attr("fill", colorOf)
+    .attr("stroke", "var(--node-stroke)")
+    .attr("stroke-width", 0.5);
+
+  node.append("text")
+    .text(d => d.label)
+    .attr("x", d => radius(d) + 3)
+    .attr("y", 3)
+    .attr("font-size", 9)
+    .attr("fill", "var(--text)")
+    .style("opacity", 0);
+
+  // Hover / click interactions
+  const hoverInfo = document.getElementById("hover-info");
+  const adj = buildAdjacency(links);
+
+  node.on("mouseover", (ev, d) => {
+    highlight(d.id);
+    hoverInfo.querySelector(".name").textContent = d.label;
+    hoverInfo.querySelector(".folder").textContent = d.folder ? `📁 ${d.folder}` : "";
+    hoverInfo.querySelector(".tags").textContent = d.tags && d.tags.length ? `# ${d.tags.join(", ")}` : "";
+    hoverInfo.querySelector(".degree").textContent = `연결: ${d.degree}`;
+    hoverInfo.classList.add("visible");
+  }).on("mouseout", () => {
+    clearHighlight();
+    hoverInfo.classList.remove("visible");
+  });
+
+  function highlight(id) {
+    const neighbors = adj.get(id) || new Set();
+    neighbors.add(id);
+    node.style("opacity", d => neighbors.has(d.id) ? 1 : 0.15);
+    link.style("opacity", l => (l.source.id === id || l.target.id === id) ? 0.9 : 0.05)
+        .attr("stroke", l => (l.source.id === id || l.target.id === id) ? "var(--link-hi)" : "var(--link)");
+  }
+  function clearHighlight() {
+    node.style("opacity", 1);
+    link.style("opacity", 0.6).attr("stroke", "var(--link)");
+  }
+
+  // Search
+  const searchInput = document.getElementById("search");
+  searchInput.addEventListener("input", (e) => {
+    const q = e.target.value.trim().toLowerCase();
+    if (!q) { clearHighlight(); return; }
+    node.style("opacity", d => d.label.toLowerCase().includes(q) ? 1 : 0.1);
+    link.style("opacity", 0.05);
+  });
+
+  // Tick
+  sim.on("tick", () => {
+    link
+      .attr("x1", d => d.source.x).attr("y1", d => d.source.y)
+      .attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+    node.attr("transform", d => `translate(${d.x},${d.y})`);
+  });
+
+  // Resize
+  window.addEventListener("resize", () => {
+    const w = window.innerWidth, h = window.innerHeight;
+    svg.attr("viewBox", [0, 0, w, h]);
+    sim.force("center", d3.forceCenter(w / 2, h / 2));
+    sim.force("x", d3.forceX(w / 2).strength(center));
+    sim.force("y", d3.forceY(h / 2).strength(center));
+    sim.alpha(0.3).restart();
+  });
+
+  function drag(simulation) {
+    return d3.drag()
+      .on("start", (ev, d) => {
+        if (!ev.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x; d.fy = d.y;
+      })
+      .on("drag", (ev, d) => { d.fx = ev.x; d.fy = ev.y; })
+      .on("end", (ev, d) => {
+        if (!ev.active) simulation.alphaTarget(0);
+        d.fx = null; d.fy = null;
+      });
+  }
+
+  function buildAdjacency(links) {
+    const m = new Map();
+    links.forEach(l => {
+      const s = typeof l.source === "object" ? l.source.id : l.source;
+      const t = typeof l.target === "object" ? l.target.id : l.target;
+      if (!m.has(s)) m.set(s, new Set());
+      if (!m.has(t)) m.set(t, new Set());
+      m.get(s).add(t);
+      m.get(t).add(s);
+    });
+    return m;
+  }
+})();
+</script>
+</body>
+</html>
