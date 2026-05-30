@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>유배 워크숍 2기 과정발표회 — 외부 참여 신청</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: 'Noto Sans KR', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    background: #f0f0f0;
+    color: #111;
+    line-height: 1.7;
+    padding: 48px 16px 80px;
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 640px;
+    margin: 0 auto;
+    background: #fff;
+    border: 1px solid #c8c8c8;
+  }
+
+  @media (max-width: 600px) {
+    body { padding: 24px 12px 60px; }
+  }
+
+  /* ── site label ── */
+  .site-label {
+    font-size: 10px;
+    letter-spacing: 3px;
+    color: #fff;
+    background: #3F8EA3;
+    text-transform: uppercase;
+    padding: 10px 32px;
+  }
+
+  /* ── header ── */
+  .header {
+    padding: 36px 40px 28px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  @media (max-width: 600px) { .header { padding: 28px 24px 22px; } }
+
+  h1 {
+    font-size: 21px;
+    font-weight: 500;
+    letter-spacing: -0.2px;
+    margin-bottom: 4px;
+  }
+  .page-subtitle {
+    font-size: 13px;
+    color: #777;
+  }
+
+  /* ── warning notice ── */
+  .warning {
+    margin: 0;
+    padding: 18px 40px;
+    background: #111;
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.85;
+    border-bottom: 1px solid #111;
+  }
+  @media (max-width: 600px) { .warning { padding: 16px 24px; } }
+
+  /* ── info panel ── */
+  .info-panel {
+    padding: 28px 40px;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  @media (max-width: 600px) { .info-panel { padding: 22px 24px; } }
+
+  .info-panel dl {
+    display: grid;
+    grid-template-columns: 52px 1fr;
+    gap: 11px 20px;
+    font-size: 13.5px;
+  }
+  .info-panel dt {
+    color: #888;
+    font-weight: 400;
+    padding-top: 1px;
+  }
+  .info-panel dd {
+    color: #111;
+    line-height: 1.65;
+  }
+  .info-footer {
+    margin-top: 18px;
+    padding-top: 16px;
+    border-top: 1px solid #e8e8e8;
+    font-size: 12.5px;
+    color: #666;
+    line-height: 1.9;
+  }
+
+  /* ── form body ── */
+  .form-body {
+    padding: 32px 40px 40px;
+  }
+  @media (max-width: 600px) { .form-body { padding: 24px 24px 36px; } }
+
+  .form-section-label {
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #999;
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+
+  .field {
+    margin-bottom: 24px;
+  }
+  .field > label {
+    display: block;
+    font-size: 12.5px;
+    color: #444;
+    margin-bottom: 7px;
+    letter-spacing: 0.2px;
+  }
+  .field input[type="text"] {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 14px;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #111;
+    border-radius: 0;
+    -webkit-appearance: none;
+    transition: border-color 0.12s;
+  }
+  .field input[type="text"]:focus {
+    outline: none;
+    border-color: #111;
+  }
+
+  /* ── radio group ── */
+  .radio-label {
+    font-size: 12.5px;
+    color: #444;
+    margin-bottom: 6px;
+    letter-spacing: 0.2px;
+  }
+  .radio-hint {
+    font-size: 11.5px;
+    color: #aaa;
+    margin-bottom: 12px;
+  }
+  .option {
+    display: flex;
+    align-items: flex-start;
+    gap: 11px;
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    background: #fff;
+    cursor: pointer;
+    font-size: 13.5px;
+    color: #222;
+    margin-bottom: 5px;
+    line-height: 1.55;
+    transition: border-color 0.1s, background 0.1s;
+  }
+  .option:hover {
+    border-color: #aaa;
+    background: #fafafa;
+  }
+  .option.selected {
+    border-color: #111;
+    background: #f4f4f4;
+  }
+  .option input[type="radio"] {
+    margin-top: 3px;
+    flex-shrink: 0;
+    accent-color: #111;
+  }
+
+  #other-box {
+    display: none;
+    margin-top: 6px;
+  }
+  #other-box textarea {
+    width: 100%;
+    padding: 10px 14px;
+    font-size: 13.5px;
+    font-family: inherit;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #111;
+    resize: vertical;
+    min-height: 80px;
+    border-radius: 0;
+    transition: border-color 0.12s;
+  }
+  #other-box textarea:focus {
+    outline: none;
+    border-color: #111;
+  }
+
+  /* ── submit ── */
+  .submit-area {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+  #submit {
+    font-family: inherit;
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    background: #111;
+    color: #fff;
+    border: none;
+    padding: 13px 36px;
+    cursor: pointer;
+    transition: background 0.15s;
+  }
+  #submit:hover { background: #333; }
+  #submit:disabled { background: #aaa; cursor: not-allowed; }
+
+  .error-msg {
+    font-size: 12.5px;
+    color: #c00;
+  }
+  .hidden { display: none; }
+
+  /* ── result ── */
+  #result {
+    margin-top: 28px;
+    padding: 32px 28px;
+    border: 1px solid #ddd;
+    background: #fafafa;
+  }
+  .result-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #111;
+    margin-bottom: 10px;
+  }
+  .result-body {
+    font-size: 13px;
+    color: #555;
+    line-height: 1.9;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <div class="site-label">Workshop YOUBE 2nd</div>
+
+  <div class="header">
+    <h1>워크숍 2기 과정발표회</h1>
+    <div class="page-subtitle">외부 참여자 신청</div>
+  </div>
+
+  <div class="warning">
+    본 과정발표회는 자유롭게 참여 가능한 열린 형식이 아닙니다.<br>
+    사전에 확정된 인원에 한하여 공유되는 자리이니, 이 점 양지 부탁드립니다.<br>
+    참가비는 없습니다.
+  </div>
+
+  <div class="info-panel">
+    <dl>
+      <dt>일시</dt>
+      <dd>2026년 6월 9일 (화)<br>
+          17:50 입장 · 18:00 시작 · 22:00경 종료 예상</dd>
+      <dt>장소</dt>
+      <dd>공공공섬 4층<br>서울 종로구 창신동 390-6</dd>
+      <dt>구성</dt>
+      <dd>프레젠테이션 + 장면 발표 2부<br>중간 인터미션 20분 (자율 퇴장 가능)<br>종료 후 대화 (선택 참여)</dd>
+    </dl>
+    <div class="info-footer">
+      참여 확정 안내는 6월 3일까지 문자로 발송됩니다.
+    </div>
+  </div>
+
+  <div class="form-body">
+    <div class="form-section-label">참여 신청</div>
+
+    <form id="form" novalidate>
+
+      <div class="field">
+        <label for="name">이름</label>
+        <input type="text" id="name" name="name" placeholder="성함을 입력하십시오" autocomplete="name">
+      </div>
+
+      <div class="field">
+        <label for="contact">연락처</label>
+        <input type="text" id="contact" name="contact" placeholder="전화번호 또는 이메일" autocomplete="email">
+      </div>
+
+      <div class="field">
+        <div class="radio-label">참여 희망 동기</div>
+        <div class="radio-hint">주된 동기 하나를 선택하십시오.</div>
+        <div id="motiv-options">
+          <label class="option">
+            <input type="radio" name="motiv" value="1">
+            <span>유배 워크숍 이후 기수에 지원을 고려하고 있다</span>
+          </label>
+          <label class="option">
+            <input type="radio" name="motiv" value="2">
+            <span>유배 공연을 관람한 경험을 토대로 흥미를 가지게 되었다</span>
+          </label>
+          <label class="option">
+            <input type="radio" name="motiv" value="3">
+            <span>최근 워크숍 2기 관련 SNS 게시물을 보고 흥미를 느끼게 되었다</span>
+          </label>
+          <label class="option">
+            <input type="radio" name="motiv" value="4">
+            <span>지인, 동료 등에게서 단체와 관련한 이야기를 들었다</span>
+          </label>
+          <label class="option">
+            <input type="radio" name="motiv" value="5">
+            <span>새로운 창작 방법론, 네트워킹 등에 관심이 있다</span>
+          </label>
+          <label class="option">
+            <input type="radio" name="motiv" value="6">
+            <span>기타</span>
+          </label>
+        </div>
+        <div id="other-box">
+          <textarea id="other-text" placeholder="참여 희망 동기를 간략히 서술하십시오"></textarea>
+        </div>
+      </div>
+
+    </form>
+
+    <div class="submit-area">
+      <button id="submit">제출</button>
+      <div id="error-msg" class="error-msg hidden"></div>
+    </div>
+
+    <div id="result" class="hidden">
+      <div class="result-title">신청이 접수되었습니다.</div>
+      <div class="result-body">
+        참여 확정 안내는 6월 3일까지 문자로 발송드립니다.<br>
+        감사합니다.
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+const ENDPOINT = 'https://script.google.com/macros/s/AKfycbyqpb_CQh88SmSGQ-M8Ygebs4YmHDY-JfcOpcBMOyqVC3g4D3XyMhYZzpJ44mQthivdjg/exec';
+
+const motivLabels = {
+  '1': '유배 워크숍 이후 기수에 지원을 고려하고 있다',
+  '2': '유배 공연을 관람한 경험을 토대로 흥미를 가지게 되었다',
+  '3': '최근 워크숍 2기 관련 SNS 게시물을 보고 흥미를 느끼게 되었다',
+  '4': '지인, 동료 등에게서 단체와 관련한 이야기를 들었다',
+  '5': '새로운 창작 방법론, 네트워킹 등에 관심이 있다',
+  '6': '기타'
+};
+
+document.querySelectorAll('#motiv-options .option input[type="radio"]').forEach(input => {
+  input.addEventListener('change', () => {
+    document.querySelectorAll('#motiv-options .option').forEach(o => o.classList.remove('selected'));
+    input.closest('.option').classList.add('selected');
+    const otherBox = document.getElementById('other-box');
+    otherBox.style.display = input.value === '6' ? 'block' : 'none';
+    if (input.value !== '6') document.getElementById('other-text').value = '';
+  });
+});
+
+document.getElementById('submit').addEventListener('click', async () => {
+  const errorEl = document.getElementById('error-msg');
+  errorEl.classList.add('hidden');
+
+  const name      = document.getElementById('name').value.trim();
+  const contact   = document.getElementById('contact').value.trim();
+  const motivEl   = document.querySelector('input[name="motiv"]:checked');
+  const otherText = document.getElementById('other-text').value.trim();
+
+  function show(msg) {
+    errorEl.textContent = msg;
+    errorEl.classList.remove('hidden');
+  }
+
+  if (!name)    { show('이름을 입력하십시오.'); return; }
+  if (!contact) { show('연락처를 입력하십시오.'); return; }
+  if (!motivEl) { show('참여 희망 동기를 선택하십시오.'); return; }
+  if (motivEl.value === '6' && !otherText) { show('기타 동기를 서술하십시오.'); return; }
+
+  const payload = {
+    name,
+    contact,
+    motiv_label: motivLabels[motivEl.value],
+    motiv_other: motivEl.value === '6' ? otherText : ''
+  };
+
+  const btn = document.getElementById('submit');
+  btn.disabled = true;
+  btn.textContent = '처리 중...';
+
+  try {
+    await fetch(ENDPOINT, {
+      method: 'POST',
+      mode: 'no-cors',
+      headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+      body: JSON.stringify(payload)
+    });
+    document.getElementById('form').style.display = 'none';
+    document.querySelector('.submit-area').style.display = 'none';
+    document.getElementById('result').classList.remove('hidden');
+    document.getElementById('result').scrollIntoView({ behavior: 'smooth' });
+  } catch (err) {
+    show('전송에 실패했습니다. 다시 시도하십시오.');
+    btn.disabled = false;
+    btn.textContent = '제출';
+  }
+});
+</script>
+</body>
+</html>
