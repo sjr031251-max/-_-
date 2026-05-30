@@ -64,6 +64,22 @@
     font-size: 13px;
     line-height: 1.85;
     border-bottom: 1px solid #111;
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .warning-text { flex: 1; }
+  .warning-poster {
+    flex-shrink: 0;
+    width: 110px;
+  }
+  .warning-poster img {
+    width: 100%;
+    display: block;
+  }
+  @media (max-width: 600px) {
+    .warning { flex-direction: column; gap: 16px; }
+    .warning-poster { width: 90px; }
   }
   .warning-mark {
     display: block;
@@ -268,10 +284,15 @@
   </div>
 
   <div class="warning">
-    <span class="warning-mark">※</span>
-    본 과정발표회는 자유롭게 참여 가능한 열린 형식이 아닙니다.<br>
-    사전에 확정된 인원에 한하여 공유되는 자리이니, 이 점 양지 부탁드립니다.<br>
-    참가비는 없습니다.
+    <div class="warning-text">
+      <span class="warning-mark">※</span>
+      본 과정발표회는 자유롭게 참여 가능한 열린 형식이 아닙니다.<br>
+      사전에 확정된 인원에 한하여 공유되는 자리이니, 이 점 양지 부탁드립니다.<br>
+      참가비는 없습니다.
+    </div>
+    <div class="warning-poster">
+      <img src="poster.jpg" alt="유배 워크숍 2기 과정발표회 포스터">
+    </div>
   </div>
 
   <div class="info-panel">
