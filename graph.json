@@ -1,6 +1,33 @@
 {
   "nodes": [
     {
+      "id": "동거 단위 적합도 평가 - 입장 양식",
+      "label": "동거 단위 적합도 평가 - 입장 양식",
+      "folder": "",
+      "tags": [],
+      "color": null,
+      "degree": 1,
+      "anon": false
+    },
+    {
+      "id": "객석 배정 로직 2단계",
+      "label": "객석 배정 로직 2단계",
+      "folder": "",
+      "tags": [],
+      "color": null,
+      "degree": 1,
+      "anon": false
+    },
+    {
+      "id": "희곡쓰기_프로토콜_v2",
+      "label": "희곡쓰기_프로토콜_v2",
+      "folder": "_protocols",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
       "id": "00_Home",
       "label": "00_Home",
       "folder": "_vault",
@@ -21,6 +48,15 @@
       "tags": [],
       "color": null,
       "degree": 1,
+      "anon": false
+    },
+    {
+      "id": "집 2026",
+      "label": "집 2026",
+      "folder": "_vault",
+      "tags": [],
+      "color": null,
+      "degree": 2,
       "anon": false
     },
     {
@@ -46,17 +82,6 @@
       "anon": false
     },
     {
-      "id": "변방연극제2026",
-      "label": "변방연극제2026",
-      "folder": "_vault",
-      "tags": [
-        "프로젝트"
-      ],
-      "color": "#D65C5C",
-      "degree": 25,
-      "anon": false
-    },
-    {
       "id": "집",
       "label": "집",
       "folder": "_vault",
@@ -64,7 +89,7 @@
         "프로젝트"
       ],
       "color": "#D65C5C",
-      "degree": 31,
+      "degree": 30,
       "anon": false
     },
     {
@@ -764,7 +789,7 @@
         "들뢰즈"
       ],
       "color": null,
-      "degree": 6,
+      "degree": 3,
       "anon": false
     },
     {
@@ -880,7 +905,7 @@
       "folder": "",
       "tags": [],
       "color": "#555",
-      "degree": 26,
+      "degree": 21,
       "anon": true
     },
     {
@@ -1023,7 +1048,7 @@
         "도구"
       ],
       "color": null,
-      "degree": 14,
+      "degree": 11,
       "anon": false
     },
     {
@@ -1046,7 +1071,7 @@
         "공연구조"
       ],
       "color": null,
-      "degree": 13,
+      "degree": 12,
       "anon": false
     },
     {
@@ -1058,7 +1083,7 @@
         "신체방법론"
       ],
       "color": null,
-      "degree": 23,
+      "degree": 19,
       "anon": false
     },
     {
@@ -1070,7 +1095,7 @@
         "연구방향"
       ],
       "color": "#73B5AA",
-      "degree": 40,
+      "degree": 35,
       "anon": false
     },
     {
@@ -1081,7 +1106,7 @@
         "참조어휘"
       ],
       "color": null,
-      "degree": 17,
+      "degree": 13,
       "anon": false
     },
     {
@@ -1115,7 +1140,7 @@
         "윤리"
       ],
       "color": null,
-      "degree": 12,
+      "degree": 10,
       "anon": false
     },
     {
@@ -1126,7 +1151,7 @@
         "연작구조"
       ],
       "color": null,
-      "degree": 26,
+      "degree": 22,
       "anon": false
     },
     {
@@ -1137,7 +1162,7 @@
         "운영원리"
       ],
       "color": null,
-      "degree": 9,
+      "degree": 8,
       "anon": false
     },
     {
@@ -1159,7 +1184,7 @@
         "신체방법론"
       ],
       "color": null,
-      "degree": 19,
+      "degree": 16,
       "anon": false
     },
     {
@@ -1170,16 +1195,7 @@
         "작업환경"
       ],
       "color": null,
-      "degree": 10,
-      "anon": false
-    },
-    {
-      "id": "변방연극제_작업구상소개서",
-      "label": "변방연극제_작업구상소개서",
-      "folder": "_vault",
-      "tags": [],
-      "color": null,
-      "degree": 12,
+      "degree": 6,
       "anon": false
     },
     {
@@ -1189,24 +1205,6 @@
       "tags": [],
       "color": null,
       "degree": 1,
-      "anon": false
-    },
-    {
-      "id": "변방연극제_참가신청서",
-      "label": "변방연극제_참가신청서",
-      "folder": "_vault",
-      "tags": [],
-      "color": null,
-      "degree": 6,
-      "anon": false
-    },
-    {
-      "id": "변방연극제_창작자소개서",
-      "label": "변방연극제_창작자소개서",
-      "folder": "_vault",
-      "tags": [],
-      "color": null,
-      "degree": 13,
       "anon": false
     },
     {
@@ -1224,7 +1222,7 @@
       "folder": "_vault",
       "tags": [],
       "color": null,
-      "degree": 4,
+      "degree": 1,
       "anon": false
     },
     {
@@ -1233,7 +1231,7 @@
       "folder": "_vault",
       "tags": [],
       "color": null,
-      "degree": 13,
+      "degree": 12,
       "anon": false
     },
     {
@@ -1255,9 +1253,9 @@
       "anon": false
     },
     {
-      "id": "2026-05-15_무병_들뢰즈_되기_정합본",
-      "label": "2026-05-15_무병_들뢰즈_되기_정합본",
-      "folder": "Users",
+      "id": "_작가_○○○_페르소나",
+      "label": "_작가_○○○_페르소나",
+      "folder": "before 2026",
       "tags": [],
       "color": null,
       "degree": 0,
@@ -1333,6 +1331,150 @@
       "tags": [],
       "color": null,
       "degree": 2,
+      "anon": false
+    },
+    {
+      "id": "2025-02-10_조명 도안, 큐시트",
+      "label": "2025-02-10_조명 도안, 큐시트",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2024-12-09_129 (2회차 부연)",
+      "label": "2024-12-09_129 (2회차 부연)",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2024-12-11_1211 (3회차 부연)",
+      "label": "2024-12-11_1211 (3회차 부연)",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2024-12-26_스코어 연기에 대한 언어 정립",
+      "label": "2024-12-26_스코어 연기에 대한 언어 정립",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2024-12-08_128(1회차 부연)",
+      "label": "2024-12-08_128(1회차 부연)",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2024-12-17_1217 (4회차-5회차 부연)",
+      "label": "2024-12-17_1217 (4회차-5회차 부연)",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2025-02-14_2025. 02. 14",
+      "label": "2025-02-14_2025. 02. 14",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2025-01-09_창작 목표 1 (~13일)",
+      "label": "2025-01-09_창작 목표 1 (~13일)",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2025-01-04_무병 연출 요소 정리",
+      "label": "2025-01-04_무병 연출 요소 정리",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2025-01-06_장별 노트",
+      "label": "2025-01-06_장별 노트",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2025-01-19_창작 진행 현황",
+      "label": "2025-01-19_창작 진행 현황",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2024-12-27_프로덕션 2, 3회차 부연",
+      "label": "2024-12-27_프로덕션 2, 3회차 부연",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2025-02-04_공연주까지 일주일",
+      "label": "2025-02-04_공연주까지 일주일",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2025-01-18_창작 목표 2 (~20일)",
+      "label": "2025-01-18_창작 목표 2 (~20일)",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2025-01-15_터그와의 대화",
+      "label": "2025-01-15_터그와의 대화",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "2025-01-28_1월 28일",
+      "label": "2025-01-28_1월 28일",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
       "anon": false
     },
     {
@@ -1793,6 +1935,14 @@
       "target": "Outputs_MOC"
     },
     {
+      "source": "집 2026",
+      "target": "동거 단위 적합도 평가 - 입장 양식"
+    },
+    {
+      "source": "집 2026",
+      "target": "객석 배정 로직 2단계"
+    },
+    {
       "source": "세션유배1기",
       "target": "박자쪼개기"
     },
@@ -1913,46 +2063,6 @@
       "target": "과정발표회 논의"
     },
     {
-      "source": "변방연극제2026",
-      "target": "변방연극제_창작자소개서"
-    },
-    {
-      "source": "변방연극제2026",
-      "target": "변방연극제_작업구상소개서"
-    },
-    {
-      "source": "변방연극제2026",
-      "target": "변방연극제_참가신청서"
-    },
-    {
-      "source": "변방연극제2026",
-      "target": "박자쪼개기"
-    },
-    {
-      "source": "변방연극제2026",
-      "target": "7축"
-    },
-    {
-      "source": "변방연극제2026",
-      "target": "4부작"
-    },
-    {
-      "source": "변방연극제2026",
-      "target": "field-관계장"
-    },
-    {
-      "source": "변방연극제2026",
-      "target": "되기-리토르넬로"
-    },
-    {
-      "source": "변방연극제2026",
-      "target": "도취-되어지는몸"
-    },
-    {
-      "source": "변방연극제2026",
-      "target": "person_11"
-    },
-    {
       "source": "집",
       "target": "4부작"
     },
@@ -2019,10 +2129,6 @@
     {
       "source": "집",
       "target": "사건"
-    },
-    {
-      "source": "집",
-      "target": "변방연극제2026"
     },
     {
       "source": "집",
@@ -2814,18 +2920,6 @@
     },
     {
       "source": "들뢰즈 되기",
-      "target": "변방연극제_창작자소개서"
-    },
-    {
-      "source": "들뢰즈 되기",
-      "target": "변방연극제_작업구상소개서"
-    },
-    {
-      "source": "들뢰즈 되기",
-      "target": "변방연극제_참가신청서"
-    },
-    {
-      "source": "들뢰즈 되기",
       "target": "person_11"
     },
     {
@@ -2898,10 +2992,6 @@
     },
     {
       "source": "person_11",
-      "target": "변방연극제2026"
-    },
-    {
-      "source": "person_11",
       "target": "워크숍2기"
     },
     {
@@ -2915,18 +3005,6 @@
     {
       "source": "person_11",
       "target": "집"
-    },
-    {
-      "source": "person_11",
-      "target": "변방연극제_창작자소개서"
-    },
-    {
-      "source": "person_11",
-      "target": "변방연극제_작업구상소개서"
-    },
-    {
-      "source": "person_11",
-      "target": "변방연극제_참가신청서"
     },
     {
       "source": "person_11",
@@ -3154,10 +3232,6 @@
     },
     {
       "source": "AI-사전검증",
-      "target": "변방연극제2026"
-    },
-    {
-      "source": "AI-사전검증",
       "target": "9단계-트리거"
     },
     {
@@ -3167,14 +3241,6 @@
     {
       "source": "AI-사전검증",
       "target": "신체-경향성"
-    },
-    {
-      "source": "AI-사전검증",
-      "target": "변방연극제_창작자소개서"
-    },
-    {
-      "source": "AI-사전검증",
-      "target": "변방연극제_작업구상소개서"
     },
     {
       "source": "AI-사전검증",
@@ -3266,15 +3332,7 @@
     },
     {
       "source": "9단계-트리거",
-      "target": "변방연극제_창작자소개서"
-    },
-    {
-      "source": "9단계-트리거",
       "target": "박자쪼개기"
-    },
-    {
-      "source": "7축",
-      "target": "변방연극제2026"
     },
     {
       "source": "7축",
@@ -3291,14 +3349,6 @@
     {
       "source": "7축",
       "target": "중심축"
-    },
-    {
-      "source": "7축",
-      "target": "변방연극제_작업구상소개서"
-    },
-    {
-      "source": "7축",
-      "target": "변방연극제_창작자소개서"
     },
     {
       "source": "7축",
@@ -3322,10 +3372,6 @@
     },
     {
       "source": "박자쪼개기",
-      "target": "변방연극제2026"
-    },
-    {
-      "source": "박자쪼개기",
       "target": "워크숍2기"
     },
     {
@@ -3339,18 +3385,6 @@
     {
       "source": "박자쪼개기",
       "target": "4부작"
-    },
-    {
-      "source": "박자쪼개기",
-      "target": "변방연극제_창작자소개서"
-    },
-    {
-      "source": "박자쪼개기",
-      "target": "변방연극제_작업구상소개서"
-    },
-    {
-      "source": "박자쪼개기",
-      "target": "변방연극제_참가신청서"
     },
     {
       "source": "박자쪼개기",
@@ -3378,10 +3412,6 @@
     },
     {
       "source": "되기-리토르넬로",
-      "target": "변방연극제2026"
-    },
-    {
-      "source": "되기-리토르넬로",
       "target": "세션유배1기"
     },
     {
@@ -3399,14 +3429,6 @@
     {
       "source": "되기-리토르넬로",
       "target": "도취-되어지는몸"
-    },
-    {
-      "source": "되기-리토르넬로",
-      "target": "변방연극제_작업구상소개서"
-    },
-    {
-      "source": "되기-리토르넬로",
-      "target": "변방연극제_창작자소개서"
     },
     {
       "source": "구조-통과",
@@ -3458,19 +3480,11 @@
     },
     {
       "source": "되기-실패",
-      "target": "변방연극제2026"
-    },
-    {
-      "source": "되기-실패",
       "target": "박자쪼개기"
     },
     {
       "source": "되기-실패",
       "target": "되기-리토르넬로"
-    },
-    {
-      "source": "되기-실패",
-      "target": "변방연극제_작업구상소개서"
     },
     {
       "source": "되기-실패",
@@ -3483,10 +3497,6 @@
     {
       "source": "되기-실패",
       "target": "신체-경향성"
-    },
-    {
-      "source": "4부작",
-      "target": "변방연극제2026"
     },
     {
       "source": "4부작",
@@ -3522,14 +3532,6 @@
     },
     {
       "source": "4부작",
-      "target": "변방연극제_창작자소개서"
-    },
-    {
-      "source": "4부작",
-      "target": "변방연극제_작업구상소개서"
-    },
-    {
-      "source": "4부작",
       "target": "field-관계장"
     },
     {
@@ -3547,10 +3549,6 @@
     {
       "source": "되기와-응답의-윤리",
       "target": "워크숍2기"
-    },
-    {
-      "source": "되기와-응답의-윤리",
-      "target": "변방연극제2026"
     },
     {
       "source": "되기와-응답의-윤리",
@@ -3578,10 +3576,6 @@
     },
     {
       "source": "도취-되어지는몸",
-      "target": "변방연극제2026"
-    },
-    {
-      "source": "도취-되어지는몸",
       "target": "워크숍2기"
     },
     {
@@ -3598,15 +3592,7 @@
     },
     {
       "source": "도취-되어지는몸",
-      "target": "변방연극제_창작자소개서"
-    },
-    {
-      "source": "도취-되어지는몸",
       "target": "사물-되기"
-    },
-    {
-      "source": "field-관계장",
-      "target": "변방연극제2026"
     },
     {
       "source": "field-관계장",
@@ -3617,40 +3603,8 @@
       "target": "4부작"
     },
     {
-      "source": "field-관계장",
-      "target": "변방연극제_작업구상소개서"
-    },
-    {
-      "source": "field-관계장",
-      "target": "변방연극제_창작자소개서"
-    },
-    {
-      "source": "변방연극제_작업구상소개서",
-      "target": "변방연극제2026"
-    },
-    {
       "source": "2026-05-12_포트폴리오_사건_AI활용",
       "target": "사건"
-    },
-    {
-      "source": "변방연극제_참가신청서",
-      "target": "변방연극제2026"
-    },
-    {
-      "source": "변방연극제_창작자소개서",
-      "target": "변방연극제2026"
-    },
-    {
-      "source": "Outputs_MOC",
-      "target": "변방연극제_창작자소개서"
-    },
-    {
-      "source": "Outputs_MOC",
-      "target": "변방연극제_작업구상소개서"
-    },
-    {
-      "source": "Outputs_MOC",
-      "target": "변방연극제_참가신청서"
     },
     {
       "source": "Projects_MOC",
@@ -3659,10 +3613,6 @@
     {
       "source": "Projects_MOC",
       "target": "집"
-    },
-    {
-      "source": "Projects_MOC",
-      "target": "변방연극제2026"
     },
     {
       "source": "Projects_MOC",
@@ -3919,7 +3869,7 @@
     ]
   },
   "stats": {
-    "nodes": 165,
-    "edges": 527
+    "nodes": 181,
+    "edges": 479
   }
 }
