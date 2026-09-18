@@ -10,12 +10,21 @@
       "anon": false
     },
     {
+      "id": "집 2026 ing",
+      "label": "집 2026 ing",
+      "folder": "",
+      "tags": [],
+      "color": null,
+      "degree": 2,
+      "anon": false
+    },
+    {
       "id": "동거 단위 적합도 평가 - 입장 양식",
       "label": "동거 단위 적합도 평가 - 입장 양식",
       "folder": "",
       "tags": [],
       "color": null,
-      "degree": 1,
+      "degree": 2,
       "anon": false
     },
     {
@@ -33,7 +42,7 @@
       "folder": "",
       "tags": [],
       "color": null,
-      "degree": 1,
+      "degree": 2,
       "anon": false
     },
     {
@@ -1936,6 +1945,14 @@
     }
   ],
   "edges": [
+    {
+      "source": "집 2026 ing",
+      "target": "동거 단위 적합도 평가 - 입장 양식"
+    },
+    {
+      "source": "집 2026 ing",
+      "target": "객석 배정 로직 2단계"
+    },
     {
       "source": "00_Home",
       "target": "Projects_MOC"
@@ -3887,7 +3904,7 @@
     ]
   },
   "stats": {
-    "nodes": 183,
-    "edges": 479
+    "nodes": 184,
+    "edges": 481
   }
 }
