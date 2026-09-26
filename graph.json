@@ -24,7 +24,7 @@
       "folder": "",
       "tags": [],
       "color": null,
-      "degree": 2,
+      "degree": 3,
       "anon": false
     },
     {
@@ -42,7 +42,7 @@
       "folder": "",
       "tags": [],
       "color": null,
-      "degree": 2,
+      "degree": 3,
       "anon": false
     },
     {
@@ -1952,6 +1952,10 @@
     {
       "source": "집 2026 ing",
       "target": "객석 배정 로직 2단계"
+    },
+    {
+      "source": "객석 배정 로직 2단계",
+      "target": "동거 단위 적합도 평가 - 입장 양식"
     },
     {
       "source": "00_Home",
@@ -3905,6 +3909,6 @@
   },
   "stats": {
     "nodes": 184,
-    "edges": 481
+    "edges": 482
   }
 }
