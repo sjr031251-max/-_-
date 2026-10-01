@@ -1280,6 +1280,15 @@
       "anon": false
     },
     {
+      "id": "_4부작_희곡_통합본_식사·사육·수면",
+      "label": "_4부작_희곡_통합본_식사·사육·수면",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
       "id": "_작가_○○○_페르소나",
       "label": "_작가_○○○_페르소나",
       "folder": "before 2026",
@@ -1941,6 +1950,15 @@
       "tags": [],
       "color": null,
       "degree": 3,
+      "anon": false
+    },
+    {
+      "id": "NON-Rem 2023 최종",
+      "label": "NON-Rem 2023 최종",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
       "anon": false
     }
   ],
@@ -3908,7 +3926,7 @@
     ]
   },
   "stats": {
-    "nodes": 184,
+    "nodes": 186,
     "edges": 482
   }
 }
