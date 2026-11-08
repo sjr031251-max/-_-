@@ -1280,6 +1280,15 @@
       "anon": false
     },
     {
+      "id": "README",
+      "label": "README",
+      "folder": "assets",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
       "id": "_4부작_희곡_통합본_식사·사육·수면",
       "label": "_4부작_희곡_통합본_식사·사육·수면",
       "folder": "before 2026",
@@ -3926,7 +3935,7 @@
     ]
   },
   "stats": {
-    "nodes": 186,
+    "nodes": 187,
     "edges": 482
   }
 }
