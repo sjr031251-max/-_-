@@ -1406,6 +1406,24 @@
       "anon": false
     },
     {
+      "id": "작업메모 (아카이빙)",
+      "label": "작업메모 (아카이빙)",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
+      "id": "작업메모 (릴스)",
+      "label": "작업메모 (릴스)",
+      "folder": "before 2026",
+      "tags": [],
+      "color": null,
+      "degree": 0,
+      "anon": false
+    },
+    {
       "id": "2025-02-10_조명 도안, 큐시트",
       "label": "2025-02-10_조명 도안, 큐시트",
       "folder": "before 2026",
@@ -3962,7 +3980,7 @@
     ]
   },
   "stats": {
-    "nodes": 190,
+    "nodes": 192,
     "edges": 482
   }
 }
