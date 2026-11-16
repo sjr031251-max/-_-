@@ -1397,15 +1397,6 @@
       "anon": false
     },
     {
-      "id": "후보",
-      "label": "후보",
-      "folder": "before 2026",
-      "tags": [],
-      "color": null,
-      "degree": 0,
-      "anon": false
-    },
-    {
       "id": "작업메모 (아카이빙)",
       "label": "작업메모 (아카이빙)",
       "folder": "before 2026",
@@ -3980,7 +3971,7 @@
     ]
   },
   "stats": {
-    "nodes": 192,
+    "nodes": 191,
     "edges": 482
   }
 }
